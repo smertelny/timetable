@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}Base title|You forgot to change it xD{% endblock title %}</title>
+    {% block style %}{% endblock style %}
+</head>
+<body>
+    <nav>
+        <a href="{{ url('timetable:index') }}">Main</a> |
+        <a href="{{ url ('timetable:all') }}">All lessons</a>
+    </nav>
+    {% block content %}
+    <h1>No content on this page</h1>
+    {% endblock content %}
+</body>
+</html>

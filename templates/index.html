@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Lessons for today{% endblock %}
+
+{% block style %}
+    <style>
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+{% endblock style %}
+
+{% block content %}
+    {% for lesson in lessons %}
+        {% if loop.first %}
+        <table>
+            <caption>{{ lesson.get_weekday_display() }}</caption>
+            <tr>
+                <td>Number</td>
+                <td>Class</td>
+                <td>Cabinet</td>
+            </tr>
+        {% endif %}
+        {% if loop.previtem is defined and lesson.lesson_number - loop.previtem.lesson_number > 1 %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>----</td>
+            <td>----</td>
+        </tr>
+        {% endif %}
+        <tr>
+            <td>{{ lesson.lesson_number }}</td>
+            <td>{{ lesson.get_class_name_display() }}</td>
+            <td>{{ lesson.classroom }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock content %}

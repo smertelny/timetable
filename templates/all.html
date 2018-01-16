@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}All{% endblock title %}
+{% block style %}
+    <style>
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+{% endblock style %}
+
+{% block content %}
+<table>
+    {% for day in all %}
+        {% if loop.first %}
+            <caption>{{ day.get_weekday_display() }}</caption>
+        <tr>
+            <td>Number</td>
+            <td>Class</td>
+            <td>Cabinet</td>
+        </tr>
+        {% endif %}
+        {% if loop.first and day.lesson_number != 1 %}
+            <tr>
+                <td>1</td>
+                <td>----</td>
+                <td>----</td>
+            </tr>
+        {% endif %}
+        {% if loop.previtem is defined and day.lesson_number - loop.previtem.lesson_number > 1 %}
+        <tr>
+            <td>{{ day.lesson_number - 1}}</td>
+            <td>----</td>
+            <td>----</td>
+        </tr>
+        {% endif %}
+        {% if loop.previtem is defined and loop.previtem.weekday != day.weekday %}
+        </table>
+            <br />
+        <table>
+            <caption>{{ day.get_weekday_display() }}</caption>
+            <tr>
+                <td>Number</td>
+                <td>Class</td>
+                <td>Cabinet</td>
+            </tr>
+        {% endif %}
+    <tr>
+        <td>{{ day.lesson_number }}</td>
+        <td>{{ day.get_class_name_display() }}</td>
+        <td>{{ day.classroom }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock content %}

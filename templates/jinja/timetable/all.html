@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}All{% endblock title %}
+
+{% block content %}
+<table>
+    {% for day in all %}
+        {# first: Making caption and header for first table #}
+        {% if loop.first %}
+            <caption>{{ day.get_weekday_display() }}</caption>
+        <tr>
+            <td>Number</td>
+            <td>Class</td>
+            <td>Cabinet</td>
+        </tr>
+        {% endif %}
+        {# end #}
+
+        {# second: Needed to print blank or 'window' lessons if there is no first 'n' lessons #}
+        {% if loop.previtem is undefined and day.lesson_number != 1 %}
+        {% for i in range(day.lesson_number - 1) %}
+        <tr>
+            <td>{{ i + 1 }}</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+        {# end #}
+
+        {# Printing 'window' lessons #}
+        {% if loop.previtem is defined and day.lesson_number - loop.previtem.lesson_number > 1 %}
+        {% set outer = loop %}
+        {% for i in range(day.lesson_number - outer.previtem.lesson_number -1) %}
+        <tr>
+            <td>{{ outer.previtem.lesson_number + loop.index }}</td>
+            <td>---</td>
+            <td>---</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+        {# end #}
+
+        {# Checks if new day started and makes needed changes #}
+        {% if loop.previtem is defined and loop.previtem.weekday != day.weekday %}
+        </table>
+            <br />
+        <table>
+            <caption>{{ day.get_weekday_display() }}</caption>
+            <tr>
+                <td>Number</td>
+                <td>Class</td>
+                <td>Cabinet</td>
+            </tr>
+            {# Needed for printing 'window' lessons if there is no first 'n' lessons #}
+            {% if loop.previtem.weekday != day.weekday and day.lesson_number != 1 %}
+            {% for i in range(day.lesson_number - 1) %}
+            <tr>
+                <td>{{ i + 1 }}</td>
+                <td>----</td>
+                <td>----</td>
+            </tr>
+            {% endfor %}
+            {% endif %}
+            {# end #}
+        {% endif %}
+        {# end #}
+    <tr>
+        <td>{{ day.lesson_number }}</td>
+        <td>{{ day.get_class_name_display() }}</td>
+        <td>{{ day.classroom }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock content %}

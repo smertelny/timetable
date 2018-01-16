@@ -1,0 +1,17 @@
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border: 3px solid black;
+}
+
+
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
