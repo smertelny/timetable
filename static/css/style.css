@@ -5,7 +5,12 @@ table, td {
 }
 
 table {
+    margin: 0 auto;
     width: 50%;
+    border: 3px solid black;
+}
+
+tr:first-child td {
     border: 3px solid black;
 }
 
