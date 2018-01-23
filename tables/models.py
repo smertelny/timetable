@@ -2,6 +2,8 @@ from django.db import models
 from django.core.validators import MaxValueValidator
 from django.contrib.auth.models import User
 
+from teachers.models import Teacher
+
 DAY_OF_THE_WEEK = (
     (0, 'Monday'),
     (1, 'Tuesday'),
@@ -34,7 +36,7 @@ CLASSES = (
 
 
 class Timetable(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
     weekday = models.IntegerField(choices=DAY_OF_THE_WEEK)
     lesson_number = models.PositiveSmallIntegerField(
         validators=(MaxValueValidator(8, message="There can't be more than 8 lessons"),)

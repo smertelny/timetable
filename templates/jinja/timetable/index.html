@@ -5,7 +5,6 @@
 {% block content %}
 <div>
     {% for lesson in lessons %}
-
         {% if loop.first %}
         <table>
             <caption>{{ lesson.get_weekday_display() }}</caption>
