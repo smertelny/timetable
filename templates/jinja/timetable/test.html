@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Lessons for today{% endblock %}
+
+{% block content %}
+<form method="GET" action="">
+    <select name='q'>
+        <option selected disabled>Select teacher</option>
+        {% for teacher in teachers %}
+        <option value="{{ teacher.id }}">{{ teacher }}</option>
+        {% endfor %}
+    </select>
+    <button>Select</button>
+</form>
+<div>
+    {% for lesson in lessons %}
+        {% if loop.first %}
+        <table>
+            <caption>{{ lesson.get_weekday_display() }}</caption>
+            <tr>
+                <td>Number</td>
+                <td>Class</td>
+                <td>Cabinet</td>
+            </tr>
+        {% endif %}
+
+        {% if loop.first and lesson.lesson_number != 1 %}
+            <tr>
+                <td>1</td>
+                <td>----</td>
+                <td>----</td>
+            </tr>
+        {% endif %}
+
+        {% if loop.previtem is defined and lesson.lesson_number - loop.previtem.lesson_number > 1 %}
+        {% set outer = loop.previtem %}
+        {% for i in range(lesson.lesson_number - outer.lesson_number - 1) %}
+        <tr>
+            <td>{{ outer.lesson_number + loop.index }}</td>
+            <td>----</td>
+            <td>----</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+
+        <tr>
+            <td>{{ lesson.lesson_number }}</td>
+            <td>{{ lesson.get_class_name_display() }}</td>
+            <td>{{ lesson.classroom }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</div>
+{% endblock content %}
