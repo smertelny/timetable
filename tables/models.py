@@ -42,6 +42,7 @@ class SelectedTeacher(models.Model):
     def __str__(self):
         return "{} {}".format(self.user, self.selected)
 
+
 class Timetable(models.Model):
     teacher = models.ForeignKey(Teacher, on_delete=models.SET_NULL, null=True)
     weekday = models.IntegerField(choices=DAY_OF_THE_WEEK)

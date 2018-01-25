@@ -9,3 +9,6 @@ __pycache__/
 
 # Ignore secrets files
 secrets.json
+
+# Ignore sqlite3 database file
+db.sqlite3
