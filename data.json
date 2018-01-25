@@ -1,0 +1,326 @@
+[
+{
+  "model": "tables.timetable",
+  "pk": 1,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson_name": "CS",
+    "class_name": "9a",
+    "classroom": 408
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 2,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson_name": "CS",
+    "class_name": "9a",
+    "classroom": 408
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 3,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson_name": "CS",
+    "class_name": "7a",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 4,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson_name": "CS",
+    "class_name": "10",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 5,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson_name": "CS",
+    "class_name": "10",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 6,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson_name": "CS",
+    "class_name": "11",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 7,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson_name": "CS",
+    "class_name": "8a",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 8,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson_name": "CS",
+    "class_name": "8a",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 9,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson_name": "CS",
+    "class_name": "8b",
+    "classroom": 309
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 10,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson_name": "CS",
+    "class_name": "9b",
+    "classroom": 408
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 11,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson_name": "CS",
+    "class_name": "10",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 12,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson_name": "CS",
+    "class_name": "10",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 13,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson_name": "CS",
+    "class_name": "7b",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 14,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson_name": "CS",
+    "class_name": "7a",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 15,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson_name": "CS",
+    "class_name": "9a",
+    "classroom": 408
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 16,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson_name": "CS",
+    "class_name": "9b",
+    "classroom": 408
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 17,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson_name": "CS",
+    "class_name": "11",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 18,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson_name": "CS",
+    "class_name": "11",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 19,
+  "fields": {
+    "teacher": 1,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson_name": "CS",
+    "class_name": "7b",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 20,
+  "fields": {
+    "teacher": 1,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson_name": "CS",
+    "class_name": "10",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 21,
+  "fields": {
+    "teacher": 1,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson_name": "Tech",
+    "class_name": "11",
+    "classroom": 405
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 22,
+  "fields": {
+    "teacher": 1,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson_name": "CS",
+    "class_name": "9b",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 23,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson_name": "CS",
+    "class_name": "11",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 24,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson_name": "CS",
+    "class_name": "11",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 25,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson_name": "CS",
+    "class_name": "8a",
+    "classroom": 309
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 26,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson_name": "CS",
+    "class_name": "8b",
+    "classroom": 303
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 27,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson_name": "CS",
+    "class_name": "8b",
+    "classroom": 303
+  }
+}
+]
