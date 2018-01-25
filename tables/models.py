@@ -35,8 +35,15 @@ CLASSES = (
 )
 
 
+class SelectedTeacher(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, )
+    selected = models.ForeignKey(Teacher, on_delete=models.CASCADE, null=True, default=None)
+
+    def __str__(self):
+        return "{} {}".format(self.user, self.selected)
+
 class Timetable(models.Model):
-    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(Teacher, on_delete=models.SET_NULL, null=True)
     weekday = models.IntegerField(choices=DAY_OF_THE_WEEK)
     lesson_number = models.PositiveSmallIntegerField(
         validators=(MaxValueValidator(8, message="There can't be more than 8 lessons"),)

@@ -13,6 +13,17 @@
         <a href="{{ url('timetable:index') }}">Main</a> |
         <a href="{{ url('timetable:all') }}">All lessons</a> |
         <a href="{{ url('timetable:test') }}">Lesson by Teachers (test)</a>
+        {% if request.user.is_authenticated %}
+        <div class="login">
+            <span>Hello, {{ request.user.username }}</span> | 
+            <a href="{{ url('timetable:selected')}}">Select teacher</a> |
+            <a href="{{ url('logout') }}?next=/">Log out</a>
+        </div>
+        {% else %}
+        <div class="login">
+            <a href="{{ url('social:begin', args=('google-oauth2',)) }}?next=/">Google+</a>
+        </div>
+        {% endif %}
     </nav>
     {% block content %}
     <h1>No content on this page</h1>

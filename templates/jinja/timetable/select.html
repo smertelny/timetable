@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Select Preferred Teacher{% endblock title %}
+
+{% block content %}
+<form method="POST" action="">
+    <input type="hidden" name="csrfmiddlewaretoken" value={{ csrf_token }} />
+    <select name="teacher_id">
+        <option disabled hidden selected value="None">---------</option>
+        {% for teacher in teachers %}
+        <option value="{{ teacher.id }}">{{ teacher }}</option>
+        {% else %}
+        <p>LOL</p>
+        {% endfor %}
+    </select>
+    <button type="submit">Choose</button>
+</form>
+{% endblock content %}
