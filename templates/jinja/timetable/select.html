@@ -6,9 +6,9 @@
 <form method="POST" action="">
     <input type="hidden" name="csrfmiddlewaretoken" value={{ csrf_token }} />
     <select name="teacher_id">
-        <option disabled hidden selected value="None">---------</option>
+        <option disabled hidden {% if not request.user.selectedteacher.selected.id %}selected{% endif %} value="None">---------</option>
         {% for teacher in teachers %}
-        <option value="{{ teacher.id }}">{{ teacher }}</option>
+        <option {% if request.user.selectedteacher.selected.id == teacher.id %}selected{% endif %} value="{{ teacher.id }}">{{ teacher }}</option>
         {% else %}
         <p>LOL</p>
         {% endfor %}

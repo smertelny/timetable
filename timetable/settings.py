@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'debug_toolbar',
     'social_django',
     'tables.apps.TablesConfig',
     'teachers.apps.TeachersConfig',
@@ -51,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'timetable.urls'
@@ -154,3 +156,5 @@ with open(os.path.join(BASE_DIR, 'secrets.json')) as file:
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = google_data['web']['client_id']
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = google_data['web']['client_secret']
+
+INTERNAL_IPS = ["127.0.0.1", "0.0.0.0", "172.18.0.1" ]
