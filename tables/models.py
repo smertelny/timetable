@@ -54,4 +54,4 @@ class Timetable(models.Model):
     classroom = models.IntegerField()
 
     def __str__(self):
-        return f"#{self.lesson_number} - {self.get_weekday_display()}"
+        return "#{} - {}".format(self.lesson_number, self.get_weekday_display())
