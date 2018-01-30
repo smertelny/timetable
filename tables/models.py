@@ -39,8 +39,10 @@ class SelectedTeacher(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, )
     selected = models.ForeignKey(Teacher, on_delete=models.CASCADE, null=True, default=None)
 
+    is_teacher = models.BooleanField(default=False)
+
     def __str__(self):
-        return "{} {}".format(self.user, self.selected)
+        return "User: {}".format(self.user)
 
 
 class Timetable(models.Model):
