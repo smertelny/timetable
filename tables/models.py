@@ -3,6 +3,7 @@ from django.core.validators import MaxValueValidator
 from django.contrib.auth.models import User
 
 from teachers.models import Teacher
+from classes.models import Class
 
 DAY_OF_THE_WEEK = (
     (0, 'Monday'),
@@ -46,6 +47,7 @@ class SelectedTeacher(models.Model):
 
 
 class Timetable(models.Model):
+    '''class_name = models.ForeignKey(Class, on_delete=models.SET_DEFAULT, default='')'''
     teacher = models.ForeignKey(Teacher, on_delete=models.SET_NULL, null=True)
     weekday = models.IntegerField(choices=DAY_OF_THE_WEEK)
     lesson_number = models.PositiveSmallIntegerField(
@@ -57,3 +59,4 @@ class Timetable(models.Model):
 
     def __str__(self):
         return "#{} - {}".format(self.lesson_number, self.get_weekday_display())
+    

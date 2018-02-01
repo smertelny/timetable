@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'social_django',
     'tables.apps.TablesConfig',
     'teachers.apps.TeachersConfig',
+    'classes.apps.ClassesConfig',
+    'lessons.apps.LessonsConfig',
 ]
 
 MIDDLEWARE = [
