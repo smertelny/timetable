@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 
 from teachers.models import Teacher
 from classes.models import Class
+from lessons.models import Lessons
 
 DAY_OF_THE_WEEK = (
     (0, 'Monday'),
@@ -47,16 +48,20 @@ class SelectedTeacher(models.Model):
 
 
 class Timetable(models.Model):
-    '''class_name = models.ForeignKey(Class, on_delete=models.SET_DEFAULT, default='')'''
     teacher = models.ForeignKey(Teacher, on_delete=models.SET_NULL, null=True)
     weekday = models.IntegerField(choices=DAY_OF_THE_WEEK)
     lesson_number = models.PositiveSmallIntegerField(
         validators=(MaxValueValidator(8, message="There can't be more than 8 lessons"),)
     )
-    lesson_name = models.CharField(max_length=4, choices=LESSONS)
-    class_name = models.CharField(max_length=3, choices=CLASSES)
+    lesson_name = models.ForeignKey(Lessons, on_delete=models.SET_DEFAULT, default='')
+    class_name = models.ForeignKey(Class, on_delete=models.SET_DEFAULT, default='')
     classroom = models.IntegerField()
 
     def __str__(self):
         return "#{} - {}".format(self.lesson_number, self.get_weekday_display())
-    
+
+    class Meta:
+        verbose_name = 'timetable'
+        verbose_name_plural = 'timetables'
+        ordering = ('weekday', 'lesson_number', 'teacher')
+        unique_together = (('teacher', 'weekday', 'lesson_number'),)
