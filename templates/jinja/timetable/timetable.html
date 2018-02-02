@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}All{% endblock title %}
+{% block title %}Lessons for {% if request.path == '/' %}{{ weekday }}{% else %}week{% endif %}{% endblock title %}
 
 {% block content %}
 <table>
-    {% for day in all %}
+    {% for day in lessons %}
         {# first: Making caption and header for first table #}
         {% if loop.first %}
             <caption>{{ day.get_weekday_display() }}</caption>

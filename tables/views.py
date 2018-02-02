@@ -17,12 +17,12 @@ def index(request):
         return render(request, 'timetable/all.html', {'all': lessons})
     lessons = Timetable.objects.select_related('lesson').select_related('class_name')\
     .filter(weekday=weekday).filter(teacher=selected_teacher).order_by('lesson_number')
-    return render(request, 'timetable/timetable.html', {'all': lessons})
+    return render(request, 'timetable/timetable.html', {'lessons': lessons})
 
-def all(request):
-    all = Timetable.objects.select_related('lesson').select_related('class_name')\
+def week_timetable(request):
+    lessons = Timetable.objects.select_related('lesson').select_related('class_name')\
     .order_by('weekday', 'lesson_number')
-    return render(request, 'timetable/timetable.html', {'all': all})
+    return render(request, 'timetable/timetable.html', {'lessons': lessons})
 
 def test(request):
     teachers = Teacher.objects.all()
