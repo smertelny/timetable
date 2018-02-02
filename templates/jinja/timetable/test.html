@@ -21,6 +21,7 @@
         <tr>
             <td>Number</td>
             <td>Class</td>
+            <td>Lesson</td>
             <td>Cabinet</td>
         </tr>
         {% endif %}
@@ -31,8 +32,9 @@
         {% for i in range(day.lesson_number - 1) %}
         <tr>
             <td>{{ i + 1 }}</td>
-            <td>--</td>
-            <td>--</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
         </tr>
         {% endfor %}
         {% endif %}
@@ -44,6 +46,7 @@
         {% for i in range(day.lesson_number - outer.previtem.lesson_number -1) %}
         <tr>
             <td>{{ outer.previtem.lesson_number + loop.index }}</td>
+            <td>---</td>
             <td>---</td>
             <td>---</td>
         </tr>
@@ -60,6 +63,7 @@
             <tr>
                 <td>Number</td>
                 <td>Class</td>
+                <td>Lesson</td>
                 <td>Cabinet</td>
             </tr>
             {# Needed for printing 'window' lessons if there is no first 'n' lessons #}
@@ -67,8 +71,9 @@
             {% for i in range(day.lesson_number - 1) %}
             <tr>
                 <td>{{ i + 1 }}</td>
-                <td>----</td>
-                <td>----</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
             </tr>
             {% endfor %}
             {% endif %}
@@ -77,7 +82,8 @@
         {# end #}
     <tr>
         <td>{{ day.lesson_number }}</td>
-        <td>{{ day.get_class_name_display() }}</td>
+        <td>{{ day.class_name }}</td>
+        <td>{{ day.lesson }}</td>
         <td>{{ day.classroom }}</td>
     </tr>
     {% endfor %}

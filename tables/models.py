@@ -16,26 +16,6 @@ DAY_OF_THE_WEEK = (
     (6, 'Sunday')
 )
 
-LESSONS = (
-    ('CS', 'Computer Science'),
-    ('Tech', 'Technologies'),
-)
-
-CLASSES = (
-    ('5a', '5-A'),
-    ('5b', '5-B'),
-    ('6a', '6-A'),
-    ('6b', '6-B'),
-    ('7a', '7-A'),
-    ('7b', '7-B'),
-    ('8a', '8-A'),
-    ('8b', '8-B'),
-    ('9a', '9-A'),
-    ('9b', '9-B'),
-    ('10', '10'),
-    ('11', '11'),
-)
-
 
 class SelectedTeacher(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, )
@@ -53,8 +33,8 @@ class Timetable(models.Model):
     lesson_number = models.PositiveSmallIntegerField(
         validators=(MaxValueValidator(8, message="There can't be more than 8 lessons"),)
     )
-    lesson_name = models.ForeignKey(Lessons, on_delete=models.SET_DEFAULT, default='')
-    class_name = models.ForeignKey(Class, on_delete=models.SET_DEFAULT, default='')
+    lesson = models.ForeignKey(Lessons, on_delete=models.SET_NULL, blank=True, null=True)
+    class_name = models.ForeignKey(Class, on_delete=models.SET_NULL, blank=True, null=True)
     classroom = models.IntegerField()
 
     def __str__(self):
