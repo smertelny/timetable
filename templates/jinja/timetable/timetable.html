@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 
-{% block title %}Lessons for {% if request.path == '/' %}{{ weekday }}{% else %}week{% endif %}{% endblock title %}
+{% block title %}Lessons for {% if request.path == '/' %}today{% else %}week{% endif %}{{ super() }}{% endblock title %}
 
 {% block content %}
+{% if lessons %}
 <table>
     {% for day in lessons %}
         {# first: Making caption and header for first table #}
@@ -78,4 +79,7 @@
     </tr>
     {% endfor %}
 </table>
+{% else %}
+<h1>You have no lessons today, be happy =)</h1>
+{% endif %}
 {% endblock content %}
