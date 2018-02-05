@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Student's timetable|{{ super() }}{% endblock title %}Student's timetable|{{ super() }}
+
+{% block content %}
+<h1 style="text-align: center">{{ weekday }}</h1>
+<table>
+{% for klass in lessons %}
+  {% if loop.first %}
+  <caption>{{ klass.class_name }}</caption>
+    <tr>
+      <td>Number</td>
+      <td>Lesson</td>
+      <td>Class</td>
+    </tr>
+  {% endif %}
+  
+  {% if  loop.previtem is defined and klass.class_name != loop.previtem.class_name %}
+  </table>
+  <br />
+  <table>
+    <caption>{{ klass.class_name }}</caption>
+    <tr>
+        <td>Number</td>
+        <td>Lesson</td>
+        <td>Class</td>
+      </tr>
+  {% endif %}
+
+  <tr>
+    <td>{{ klass.lesson_number }}</td>
+    <td>{{ klass.lesson }}</td>
+    <td>{{ klass.classroom }}</td>
+  </tr>
+
+{% endfor %}
+</table>
+{% endblock content %}
+

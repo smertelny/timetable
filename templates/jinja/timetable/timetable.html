@@ -48,7 +48,7 @@
         {# Checks if new day started and makes needed changes #}
         {% if loop.previtem is defined and loop.previtem.weekday != day.weekday %}
         </table>
-            <br />
+        <br />
         <table>
             <caption>{{ day.get_weekday_display() }}</caption>
             <tr>

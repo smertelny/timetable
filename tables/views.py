@@ -14,7 +14,7 @@ def index(request):
     except AttributeError:
         lessons = Timetable.objects.select_related('lesson').\
         select_related('class_name').filter(weekday=weekday).order_by('lesson_number')
-        return render(request, 'timetable/all.html', {'all': lessons})
+        return render(request, 'timetable/timetable.html', {'lessons': lessons})
     lessons = Timetable.objects.select_related('lesson').select_related('class_name')\
     .filter(weekday=weekday).filter(teacher=selected_teacher).order_by('lesson_number')
     return render(request, 'timetable/timetable.html', {'lessons': lessons})
@@ -23,6 +23,13 @@ def week_timetable(request):
     lessons = Timetable.objects.select_related('lesson').select_related('class_name')\
     .order_by('weekday', 'lesson_number')
     return render(request, 'timetable/timetable.html', {'lessons': lessons})
+
+def today_students(request):
+    weekday = datetime.date.today().weekday()
+    lessons = Timetable.objects.select_related('lesson').select_related('class_name')\
+    .filter(weekday=weekday).order_by("class_name")
+    weekday = DAY_OF_THE_WEEK[weekday][1]
+    return render(request, "timetable/students_week.html", {"lessons": lessons, "weekday": weekday})
 
 def test(request):
     teachers = Teacher.objects.all()
