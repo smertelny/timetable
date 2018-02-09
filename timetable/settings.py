@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 import os
 import json
 
+from django.utils.translation import ugettext_lazy as _
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -32,13 +34,14 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'debug_toolbar',
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'debug_toolbar',
     'social_django',
     'tables.apps.TablesConfig',
     'teachers.apps.TeachersConfig',
@@ -49,6 +52,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -134,6 +138,12 @@ USE_L10N = True
 
 USE_TZ = True
 
+LANGUAGES = (
+  ('en-us', _('English')),
+  ('uk', _('Ukrainian')),
+)
+
+LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
@@ -174,3 +184,6 @@ SOCIAL_AUTH_PIPELINE = (
 
 # Django-debug-toolbar settings
 INTERNAL_IPS = ["127.0.0.1", "0.0.0.0", "172.18.0.1", "172.19.0.1" ]
+
+# ModelTranslation
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en-us'
