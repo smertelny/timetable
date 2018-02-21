@@ -23,7 +23,9 @@ urlpatterns = [
     path('', include('tables.urls')),
     path('', include('social_django.urls', namespace='social')),
     path('logout', LogoutView.as_view(), name='logout'),
+    path('i18n/', include('django.conf.urls.i18n')),
 ]
+
 if settings.DEBUG:
     import debug_toolbar
     urlpatterns = [

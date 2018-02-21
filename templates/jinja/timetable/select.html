@@ -15,4 +15,15 @@
     </select>
     <button type="submit">Choose</button>
 </form>
+
+<form method="POST" action="{{ url('set_language') }}">
+    {{ csrf_input }}
+    <select name="language">
+        {% for lang in avaliable_languages %}
+        <option value="{{ lang[0] }}"{% if get_current_language() == lang[0] %} selected{% endif %}>{{ lang[1] }}</option>
+        {% endfor %}
+    </select>
+    <button type="submit">Submit</button>
+</form>
+
 {% endblock content %}
