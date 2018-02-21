@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ get_current_language() }}" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% block title %}|Timetable{% endblock title %}</title>
+    <title>{% block title %}|{{ _("Timetable") }}{% endblock title %}</title>
     {% block style %}{% endblock style %}
     <link rel="stylesheet" type="text/css" href="{{ static('css/style.css') }}" />
 </head>
 <body>
     <nav>
-        <a href="{{ url('timetable:index') }}">Main</a> |
-        <a href="{{ url('timetable:week') }}">All lessons</a> |
-        <a href="{{ url('timetable:test') }}">Lesson by Teachers (test)</a>
+        <a href="{{ url('timetable:index') }}">{{ _("Main") }}</a> |
+        <a href="{{ url('timetable:week') }}">{{ _("All lessons") }}</a> |
+        <a href="{{ url('timetable:test') }}">{{ _("Lesson by Teachers") }} (test)</a>
         {% if request.user.is_authenticated %}
         <div class="login">
-            <span>Hello, {{ request.user.username }}</span> | 
-            <a href="{{ url('timetable:selected')}}">Select teacher</a> |
-            <a href="{{ url('logout') }}?next=/">Log out</a>
+            <span>{{ _("Hello, %(user)s")|format(user=request.user.username) }}</span> | 
+            <a href="{{ url('timetable:selected')}}">{{ _("Select teacher") }}</a> |
+            <a href="{{ url('logout') }}?next=/">{{ _("Log out") }}</a>
         </div>
         {% else %}
         <div class="login">
@@ -26,7 +26,7 @@
         {% endif %}
     </nav>
     {% block content %}
-    <h1>No content on this page</h1>
+    <h1>{{ _("No content on this page") }}</h1>
     {% endblock content %}
 </body>
 </html>

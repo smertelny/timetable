@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'debug_toolbar',
-    #'modeltranslation',
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -187,3 +187,4 @@ INTERNAL_IPS = ["127.0.0.1", "0.0.0.0", "172.18.0.1", "172.19.0.1" ]
 
 # ModelTranslation
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'en-us'
+TRANSLATABLE_MODEL_MODULES = ("teachers.models", )

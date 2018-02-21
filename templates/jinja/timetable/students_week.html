@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Student's timetable|{{ super() }}{% endblock title %}Student's timetable|{{ super() }}
+{% block title %}{{ _("Student's timetable") }}|{{ super() }}{% endblock title %}
 
 {% block content %}
 <h1 style="text-align: center">{{ weekday }}</h1>
@@ -9,9 +9,9 @@
   {% if loop.first %}
   <caption>{{ klass.class_name }}</caption>
     <tr>
-      <td>Number</td>
-      <td>Lesson</td>
-      <td>Class</td>
+      <td>{{ _("Number") }}</td>
+      <td>{{ _("Lesson") }}</td>
+      <td>{{ _("Class") }}</td>
     </tr>
   {% endif %}
   
@@ -21,10 +21,10 @@
   <table>
     <caption>{{ klass.class_name }}</caption>
     <tr>
-        <td>Number</td>
-        <td>Lesson</td>
-        <td>Class</td>
-      </tr>
+      <td>{{ _("Number") }}</td>
+      <td>{{ _("Lesson") }}</td>
+      <td>{{ _("Class") }}</td>
+    </tr>
   {% endif %}
 
   <tr>

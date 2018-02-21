@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 
-{% block title %}Teacher timetable{% endblock %}
+{% block title %}{{ _("Teacher's timetable") }}{% endblock %}
 
 {% block content %}
 <form method="GET" action="">
     <select name='q'>
-        <option selected disabled>Select teacher</option>
+        <option selected disabled>{{ _("Select teacher") }}</option>
         {% for teacher in teachers %}
         <option value="{{ teacher.id }}">{{ teacher }}</option>
         {% endfor %}
     </select>
-    <button>Select</button>
+    <button>{{ _("Select") }}</button>
 </form>
 
 <table>
@@ -19,10 +19,10 @@
         {% if loop.first %}
             <caption>{{ day.get_weekday_display() }}</caption>
         <tr>
-            <td>Number</td>
-            <td>Class</td>
-            <td>Lesson</td>
-            <td>Cabinet</td>
+            <td>{{ _("Number") }}</td>
+            <td>{{ _("Lesson") }}</td>
+            <td>{{ _("Class") }}</td>
+            <td>{{ _("Cabinet") }}</td>
         </tr>
         {% endif %}
         {# end #}
@@ -61,10 +61,10 @@
         <table>
             <caption>{{ day.get_weekday_display() }}</caption>
             <tr>
-                <td>Number</td>
-                <td>Class</td>
-                <td>Lesson</td>
-                <td>Cabinet</td>
+                <td>{{ _("Number") }}</td>
+                <td>{{ _("Lesson") }}</td>
+                <td>{{ _("Class") }}</td>
+                <td>{{ _("Cabinet") }}</td>
             </tr>
             {# Needed for printing 'window' lessons if there is no first 'n' lessons #}
             {% if loop.previtem.weekday != day.weekday and day.lesson_number != 1 %}
