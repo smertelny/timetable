@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 import json
+import raven
 
 from django.utils.translation import ugettext_lazy as _
 
@@ -21,13 +22,16 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
+with open(os.path.join(BASE_DIR, 'secrets.json')) as file:
+    secret_data = json.load(file)
+
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '45)^5p8*yp0688!7@rq4tkcs9e*m69u22^drj@)uei@najr)%o'
+SECRET_KEY = secret_data["django_secret_key"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['timetable.school91.org.ua']
 
 # Application definition
 
@@ -40,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'raven.contrib.django.raven_compat',
     'social_django',
     'custom_user.apps.CustomUserConfig',
     'tables.apps.TablesConfig',
@@ -96,8 +101,12 @@ AUTH_USER_MODEL = 'custom_user.CustomUser'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': secret_data['db_name'],
+        'USER': secret_data["db_user"],
+        'PASSWORD': secret_data["db_pass"],
+        'HOST': secret_data["db_host"],
+        'PORT': secret_data["db_port"],
     }
 }
 
@@ -145,10 +154,10 @@ LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "staticfiles"),
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, "dist")
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 # Python-Social-Auth Django
 AUTHENTICATION_BACKENDS = (
@@ -156,11 +165,8 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-with open(os.path.join(BASE_DIR, 'secrets.json')) as file:
-    google_data = json.load(file)
-
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = google_data['web']['client_id']
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = google_data['web']['client_secret']
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = secret_data['web']['client_id']
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = secret_data['web']['client_secret']
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['https://www.googleapis.com/auth/admin.directory.user.readonly']
 
 SOCIAL_AUTH_PIPELINE = (
@@ -177,7 +183,16 @@ SOCIAL_AUTH_PIPELINE = (
 )
 
 # Django-debug-toolbar settings
-INTERNAL_IPS = ["127.0.0.1", "0.0.0.0", "172.18.0.1", "172.19.0.1" ]
+INTERNAL_IPS = ["127.0.0.1", "0.0.0.0", "172.18.0.1", "172.19.0.1"]
 
-# ModelTranslation
-MODELTRANSLATION_DEFAULT_LANGUAGE = 'en-us'
+# Raven configuration
+RAVEN_CONFIG = {
+    'dsn': secret_data["sentry_dsn"],
+    'release': raven.fetch_git_sha(os.path.abspath(BASE_DIR)),
+}
+
+# SSL Settings
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
