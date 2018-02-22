@@ -8,8 +8,8 @@ from classes.models import Class
 
 
 class CustomUser(AbstractUser):
-    selected_teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE, null=True, default=None, verbose_name=_("selected teacher"))
-    selected_class = models.ForeignKey(Class, on_delete=models.CASCADE, null=True, default=None, verbose_name=_("selected class"))
+    selected_teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE, blank=True, null=True, default=None, verbose_name=_("selected teacher"))
+    selected_class = models.ForeignKey(Class, on_delete=models.CASCADE, blank=True, null=True, default=None, verbose_name=_("selected class"))
     is_teacher = models.BooleanField(default=False, verbose_name=_("is teacher?"))
 
     def __str__(self):
