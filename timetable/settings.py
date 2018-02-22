@@ -31,7 +31,7 @@ SECRET_KEY = secret_data["django_secret_key"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['timetable.school91.org.ua']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -101,12 +101,8 @@ AUTH_USER_MODEL = 'custom_user.CustomUser'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': secret_data['db_name'],
-        'USER': secret_data["db_user"],
-        'PASSWORD': secret_data["db_pass"],
-        'HOST': secret_data["db_host"],
-        'PORT': secret_data["db_port"],
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3'
     }
 }
 
@@ -190,9 +186,3 @@ RAVEN_CONFIG = {
     'dsn': secret_data["sentry_dsn"],
     'release': raven.fetch_git_sha(os.path.abspath(BASE_DIR)),
 }
-
-# SSL Settings
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-SECURE_SSL_REDIRECT = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
