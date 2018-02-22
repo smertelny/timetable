@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social_django',
+    'custom_user.apps.CustomUserConfig',
     'tables.apps.TablesConfig',
     'teachers.apps.TeachersConfig',
     'classes.apps.ClassesConfig',
@@ -89,6 +90,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'timetable.wsgi.application'
 
+AUTH_USER_MODEL = 'custom_user.CustomUser'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 

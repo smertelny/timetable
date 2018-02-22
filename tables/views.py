@@ -4,13 +4,14 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 
+from custom_user.models import CustomUser
 from teachers.models import Teacher
 from .models import Timetable, DAY_OF_THE_WEEK
 
 def index(request):
     weekday = datetime.date.today().weekday()
     try:
-        selected_teacher = request.user.selected
+        selected_teacher = request.user.selected_teacher
     except AttributeError:
         lessons = Timetable.objects.select_related('lesson').\
         select_related('class_name').filter(weekday=weekday).order_by('lesson_number')
@@ -48,11 +49,7 @@ def user_settings(request):
         data = request.POST.get('teacher_id', None)
         if data:
             teacher = get_object_or_404(Teacher, pk=request.POST.get('teacher_id', None))
-            user = get_object_or_404(SelectedTeacher, user_id=request.user.id)
-            try:
-                selected = SelectedTeacher.objects.filter(user=request.user)\
-                .update(selected=teacher)
-            except SelectedTeacher.DoesNotExist:
-                SelectedTeacher.objects.create(user=request.user, selected=teacher)
+            selected = CustomUser.objects.filter(id=request.user.id)\
+                .update(selected_teacher=teacher)
             return HttpResponseRedirect(reverse('timetable:index'))
     return render(request, 'timetable/user_settings.html', {'teachers': teachers, 'selected':selected})

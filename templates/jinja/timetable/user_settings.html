@@ -8,9 +8,9 @@
     {{ csrf_input }}
     <label for="teacher_id">{{ _("Teacher to follow") }}:</label>
     <select name="teacher_id" id="teacher_id">
-        <option disabled hidden {% if not request.user.selectedteacher.selected.id %}selected{% endif %} value="None">---------</option>
+        <option disabled hidden {% if not request.user.selected_teacher.id %}selected{% endif %} value="None">---------</option>
         {% for teacher in teachers %}
-        <option {% if request.user.selectedteacher.selected.id == teacher.id %}selected{% endif %} value="{{ teacher.id }}">{{ teacher }}</option>
+        <option {% if request.user.selected_teacher.id == teacher.id %}selected{% endif %} value="{{ teacher.id }}">{{ teacher }}</option>
         {% else %}
         <p>LOL</p>
         {% endfor %}

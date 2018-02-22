@@ -19,20 +19,6 @@ DAY_OF_THE_WEEK = (
 )
 
 
-class SelectedTeacher(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, verbose_name=_("user") )
-    selected = models.ForeignKey(Teacher, on_delete=models.CASCADE, null=True, default=None, verbose_name=_("selected teacher"))
-
-    is_teacher = models.BooleanField(default=False, verbose_name=_("is teacher?"))
-
-    def __str__(self):
-        return str(format_lazy("{user}: {name}", name=self.user, user=_('User')))
-
-    class Meta:
-        verbose_name = _("selected teacher")
-        verbose_name_plural = _("selected teachers")
-
-
 class Timetable(models.Model):
     teacher = models.ForeignKey(Teacher, on_delete=models.SET_NULL, null=True, verbose_name=_("teacher"))
     weekday = models.IntegerField(choices=DAY_OF_THE_WEEK, verbose_name=_("weekday"))
