@@ -3,9 +3,11 @@
 {% block title %}{{ _("Select Preferred Teacher") }}{% endblock title %}
 
 {% block content %}
+<h2>{{ _("Timetable") }}</h2>
 <form method="POST" action="">
     {{ csrf_input }}
-    <select name="teacher_id">
+    <label for="teacher_id">{{ _("Teacher to follow") }}:</label>
+    <select name="teacher_id" id="teacher_id">
         <option disabled hidden {% if not request.user.selectedteacher.selected.id %}selected{% endif %} value="None">---------</option>
         {% for teacher in teachers %}
         <option {% if request.user.selectedteacher.selected.id == teacher.id %}selected{% endif %} value="{{ teacher.id }}">{{ teacher }}</option>
@@ -16,9 +18,13 @@
     <button type="submit">{{ _("Select") }}</button>
 </form>
 
+<hr />
+
+<h2>{{ _("Language") }}</h2>
 <form method="POST" action="{{ url('set_language') }}">
     {{ csrf_input }}
-    <select name="language">
+    <label for="language">{{ _("Language") }}:</label>
+    <select name="language" id="language" >
         {% for lang in avaliable_languages %}
         <option value="{{ lang[0] }}"{% if get_current_language() == lang[0] %} selected{% endif %}>{{ lang[1] }}</option>
         {% endfor %}

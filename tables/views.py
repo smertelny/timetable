@@ -5,12 +5,12 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 
 from teachers.models import Teacher
-from .models import Timetable, DAY_OF_THE_WEEK, SelectedTeacher
+from .models import Timetable, DAY_OF_THE_WEEK
 
 def index(request):
     weekday = datetime.date.today().weekday()
     try:
-        selected_teacher = request.user.selectedteacher.selected
+        selected_teacher = request.user.selected
     except AttributeError:
         lessons = Timetable.objects.select_related('lesson').\
         select_related('class_name').filter(weekday=weekday).order_by('lesson_number')
@@ -41,7 +41,7 @@ def test(request):
     return render(request, 'timetable/test.html', {'teachers': teachers})
 
 @login_required(login_url='/')
-def select_teacher(request):
+def user_settings(request):
     teachers = Teacher.objects.all()
     selected = None
     if request.method == 'POST':
@@ -55,4 +55,4 @@ def select_teacher(request):
             except SelectedTeacher.DoesNotExist:
                 SelectedTeacher.objects.create(user=request.user, selected=teacher)
             return HttpResponseRedirect(reverse('timetable:index'))
-    return render(request, 'timetable/select.html', {'teachers': teachers, 'selected':selected})
+    return render(request, 'timetable/user_settings.html', {'teachers': teachers, 'selected':selected})

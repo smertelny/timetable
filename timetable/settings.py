@@ -18,7 +18,6 @@ from django.utils.translation import ugettext_lazy as _
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
@@ -29,7 +28,6 @@ SECRET_KEY = '45)^5p8*yp0688!7@rq4tkcs9e*m69u22^drj@)uei@najr)%o'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
@@ -89,11 +87,7 @@ TEMPLATES = [
     }
 ]
 
-
-
-
 WSGI_APPLICATION = 'timetable.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
@@ -104,7 +98,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -123,7 +116,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
@@ -187,4 +179,3 @@ INTERNAL_IPS = ["127.0.0.1", "0.0.0.0", "172.18.0.1", "172.19.0.1" ]
 
 # ModelTranslation
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'en-us'
-TRANSLATABLE_MODEL_MODULES = ("teachers.models", )

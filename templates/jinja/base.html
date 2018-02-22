@@ -16,7 +16,7 @@
         {% if request.user.is_authenticated %}
         <div class="login">
             <span>{{ _("Hello, %(user)s")|format(user=request.user.username) }}</span> | 
-            <a href="{{ url('timetable:selected')}}">{{ _("Select teacher") }}</a> |
+            <a href="{{ url('timetable:user_settings')}}">{{ _("Settings") }}</a> |
             <a href="{{ url('logout') }}?next=/">{{ _("Log out") }}</a>
         </div>
         {% else %}
