@@ -22,3 +22,12 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
+
+# HTML minification
+HTML_MINIFY = True
+
+# Raven configuration
+RAVEN_CONFIG = {
+    'dsn': secret_data["sentry_dsn"],
+    'release': raven.fetch_git_sha(os.path.abspath(BASE_DIR)),
+}

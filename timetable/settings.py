@@ -63,6 +63,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'htmlmin.middleware.HtmlMinifyMiddleware',
+    'htmlmin.middleware.MarkRequestMiddleware',
 ]
 
 ROOT_URLCONF = 'timetable.urls'
@@ -180,9 +182,3 @@ SOCIAL_AUTH_PIPELINE = (
 
 # Django-debug-toolbar settings
 INTERNAL_IPS = ["127.0.0.1", "0.0.0.0", "172.18.0.1", "172.19.0.1"]
-
-# Raven configuration
-RAVEN_CONFIG = {
-    'dsn': secret_data["sentry_dsn"],
-    'release': raven.fetch_git_sha(os.path.abspath(BASE_DIR)),
-}

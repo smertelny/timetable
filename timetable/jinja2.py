@@ -13,7 +13,6 @@ def environment(**options):
     env.globals.update({
         'static': staticfiles_storage.url,
         'url': reverse,
-        'range': range,
         'get_current_language': translation.get_language,
         'avaliable_languages': settings.LANGUAGES,
     })
