@@ -8,5 +8,5 @@ urlpatterns = [
     path('week', views.week_timetable, name='week'),
     path('test', views.test, name='test'),
     path('settings', views.user_settings, name='user_settings'),
-    path('students', views.today_students, name="students"),
+    # path('students', views.today_students, name="students"),
 ]

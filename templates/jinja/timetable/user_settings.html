@@ -3,6 +3,7 @@
 {% block title %}{{ _("Select Preferred Teacher") }}{% endblock title %}
 
 {% block content %}
+{% if request.user.is_teacher %}
 <h2>{{ _("Timetable") }}</h2>
 <form method="POST" action="">
     {{ csrf_input }}
@@ -17,6 +18,11 @@
     </select>
     <button type="submit">{{ _("Select") }}</button>
 </form>
+{% elif request.user.is_student %}
+    Not implemented yet for students
+{% else %}
+    What the hell are you?
+{% endif %}
 
 <hr />
 

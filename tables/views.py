@@ -10,15 +10,34 @@ from .models import Timetable, DAY_OF_THE_WEEK
 
 def index(request):
     weekday = datetime.date.today().weekday()
-    try:
+    if request.user.is_anonymous:
+        lessons = Timetable._get_today()\
+        .order_by("class_name")
+        return render(
+            request,
+            "timetable/students_week.html",
+            {"lessons": lessons})
+    else:
         selected_teacher = request.user.selected_teacher
-    except AttributeError:
-        lessons = Timetable.objects.select_related('lesson').\
-        select_related('class_name').filter(weekday=weekday).order_by('lesson_number')
-        return render(request, 'timetable/timetable.html', {'lessons': lessons})
-    lessons = Timetable.objects.select_related('lesson').select_related('class_name')\
-    .filter(weekday=weekday).filter(teacher=selected_teacher).order_by('lesson_number')
+        lessons = Timetable._get_today()\
+            .filter(teacher=selected_teacher)\
+            .order_by("lesson_number")
     return render(request, 'timetable/timetable.html', {'lessons': lessons})
+    # weekday = datetime.date.today().weekday()
+    # try:
+    #     selected_teacher = request.user.selected_teacher
+    # except AttributeError:
+    #     lessons = Timetable.objects.select_related('lesson')\
+    #         .select_related('class_name')\
+    #         .filter(weekday=weekday)\
+    #         .order_by('lesson_number')
+    #     return render(request, 'timetable/timetable.html', {'lessons': lessons})
+    # lessons = Timetable.objects.select_related('lesson')\
+    #     .select_related('class_name')\
+    #     .filter(weekday=weekday)\
+    #     .filter(teacher=selected_teacher)\
+    #     .order_by('lesson_number')
+    # return render(request, 'timetable/timetable.html', {'lessons': lessons})
 
 def week_timetable(request):
     lessons = Timetable.objects.select_related('lesson').select_related('class_name')\

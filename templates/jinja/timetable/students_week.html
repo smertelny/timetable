@@ -3,10 +3,11 @@
 {% block title %}{{ _("Student's timetable") }}|{{ super() }}{% endblock title %}
 
 {% block content %}
-<h1 style="text-align: center">{{ weekday }}</h1>
-<table>
+
 {% for klass in lessons %}
   {% if loop.first %}
+  <h1 style="text-align: center">{{ klass.get_weekday_display() }}</h1>
+  <table>
   <caption>{{ klass.class_name }}</caption>
     <tr>
       <td>{{ _("Number") }}</td>

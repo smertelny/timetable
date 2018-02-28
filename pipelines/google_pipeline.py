@@ -11,4 +11,6 @@ def user_is_teacher(backend, user, uid, social, *args, **kwargs):
         )
         if response.json().get('orgUnitPath', None) == '/Вчителі':
             user.is_teacher = True
-            user.save()
+        else:
+            user.is_student = True
+        user.save()

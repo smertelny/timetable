@@ -1,3 +1,5 @@
+import datetime
+
 from django.db import models
 from django.core.validators import MaxValueValidator
 from django.contrib.auth.models import User
@@ -32,6 +34,13 @@ class Timetable(models.Model):
 
     def __str__(self):
         return str(format_lazy("#{num} - {weekday}", num=self.lesson_number, weekday=self.get_weekday_display()))
+
+    @classmethod
+    def _get_today(cls):
+        weekday = datetime.date.today().weekday()
+        return cls.objects.select_related('lesson')\
+            .select_related('class_name')\
+            .filter(weekday=weekday)
 
     class Meta:
         verbose_name = _('timetable')

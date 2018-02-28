@@ -12,10 +12,11 @@
     <nav>
         <a href="{{ url('timetable:index') }}">{{ _("Main") }}</a> |
         <a href="{{ url('timetable:week') }}">{{ _("All lessons") }}</a> |
-        <a href="{{ url('timetable:test') }}">{{ _("Lesson by Teachers") }} (test)</a>
+        {% if request.user.is_teacher %}<a href="{{ url('timetable:test') }}">{{ _("Lesson by Teachers") }} (test)</a>{% endif %}
         {% if request.user.is_authenticated %}
         <div class="login">
             <span>{{ _("Hello, %(user)s")|format(user=request.user.username) }}</span> | 
+            {% if request.user.is_staff %}<a href="{{ url('admin:index') }}">{{ _("Admin panel") }}</a> | {% endif %}
             <a href="{{ url('timetable:user_settings')}}">{{ _("Settings") }}</a> |
             <a href="{{ url('logout') }}?next=/">{{ _("Log out") }}</a>
         </div>

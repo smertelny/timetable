@@ -11,6 +11,7 @@ class CustomUser(AbstractUser):
     selected_teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE, blank=True, null=True, default=None, verbose_name=_("selected teacher"))
     selected_class = models.ForeignKey(Class, on_delete=models.CASCADE, blank=True, null=True, default=None, verbose_name=_("selected class"))
     is_teacher = models.BooleanField(default=False, verbose_name=_("is teacher?"))
+    is_student = models.BooleanField(default=False, verbose_name=_("is student?"))
 
     def __str__(self):
         return str(format_lazy("{user}: {name}", name=self.username, user=_('User')))
