@@ -19,7 +19,19 @@
     <button type="submit">{{ _("Select") }}</button>
 </form>
 {% elif request.user.is_student %}
-    Not implemented yet for students
+    <form method="POST" action="{{ url('user:select_class') }}">
+        {{ csrf_input }}
+        <label for="class_id">{{ _("Class to follow") }}:</label>
+        <select name="class_id" id="class_id">
+            <option disabled hidden {% if not request.user.selected_class.id %}selected{% endif %} value="None">---------</option>
+            {% for class in classes %}
+            <option {% if request.user.selected_class.id == class.id %}selected{% endif %} value="{{ class.id }}">{{ class }}</option>
+            {% else %}
+            <p>LOL</p>
+            {% endfor %}
+        </select>
+        <button type="submit">{{ _("Select") }}</button>
+    </form>
 {% else %}
     What the hell are you?
 {% endif %}

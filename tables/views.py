@@ -6,6 +6,7 @@ from django.http import HttpResponseRedirect
 
 from custom_user.models import CustomUser
 from teachers.models import Teacher
+from classes.models import Class
 from .models import Timetable, DAY_OF_THE_WEEK
 
 def index(request):
@@ -17,11 +18,20 @@ def index(request):
             request,
             "timetable/students_week.html",
             {"lessons": lessons})
-    else:
+    elif request.user.is_teacher:
         selected_teacher = request.user.selected_teacher
         lessons = Timetable._get_today()\
             .filter(teacher=selected_teacher)\
             .order_by("lesson_number")
+    else:
+        selected_class = request.user.selected_class
+        lessons = Timetable._get_today()\
+            .filter(class_name=selected_class)\
+            .order_by("lesson_number")
+        return render(
+            request,
+            "timetable/students_week.html",
+            {"lessons": lessons})
     return render(request, 'timetable/timetable.html', {'lessons': lessons})
     # weekday = datetime.date.today().weekday()
     # try:
@@ -63,6 +73,7 @@ def test(request):
 @login_required(login_url='/')
 def user_settings(request):
     teachers = Teacher.objects.all()
+    classes = Class.objects.all()
     selected = None
     if request.method == 'POST':
         data = request.POST.get('teacher_id', None)
@@ -71,4 +82,4 @@ def user_settings(request):
             selected = CustomUser.objects.filter(id=request.user.id)\
                 .update(selected_teacher=teacher)
             return HttpResponseRedirect(reverse('timetable:index'))
-    return render(request, 'timetable/user_settings.html', {'teachers': teachers, 'selected':selected})
+    return render(request,'timetable/user_settings.html',{'teachers': teachers,'selected':selected,'classes': classes})
