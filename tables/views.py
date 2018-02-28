@@ -50,7 +50,9 @@ def index(request):
     # return render(request, 'timetable/timetable.html', {'lessons': lessons})
 
 def week_timetable(request):
-    lessons = Timetable.objects.select_related('lesson').select_related('class_name')\
+    lessons = Timetable.objects.select_related('lesson')\
+    .select_related('class_name')\
+    .filter(teacher=request.user.selected_teacher)\
     .order_by('weekday', 'lesson_number')
     return render(request, 'timetable/timetable.html', {'lessons': lessons})
 
