@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ _("Select Preferred Teacher") }}{% endblock title %}
+{% block title %}{{ _("Settings") }}{% endblock title %}
 
 {% block content %}
 {% if request.user.is_teacher %}
@@ -19,6 +19,7 @@
     <button type="submit">{{ _("Select") }}</button>
 </form>
 {% elif request.user.is_student %}
+    <h2>{{ _("Timetable") }}</h2>
     <form method="POST" action="{{ url('user:select_class') }}">
         {{ csrf_input }}
         <label for="class_id">{{ _("Class to follow") }}:</label>
@@ -33,7 +34,7 @@
         <button type="submit">{{ _("Select") }}</button>
     </form>
 {% else %}
-    What the hell are you?
+    "What the hell are you?" @Adnold Schwarzenegger
 {% endif %}
 
 <hr />

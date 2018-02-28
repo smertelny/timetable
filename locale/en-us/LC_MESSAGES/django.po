@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-21 22:17+0200\n"
+"POT-Creation-Date: 2018-02-28 16:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,6 +41,54 @@ msgstr "class"
 msgid "classes"
 msgstr "classes"
 
+#: .\custom_user\admin.py:10
+msgid "Timetable App settings"
+msgstr ""
+
+#: .\custom_user\admin.py:11
+msgid "Personal info"
+msgstr ""
+
+#: .\custom_user\admin.py:12
+msgid "Permissions"
+msgstr ""
+
+#: .\custom_user\admin.py:14
+msgid "Important dates"
+msgstr ""
+
+#: .\custom_user\models.py:11
+msgid "selected teacher"
+msgstr "selected teacher"
+
+#: .\custom_user\models.py:12
+#, fuzzy
+#| msgid "selected teacher"
+msgid "selected class"
+msgstr "selected teacher"
+
+#: .\custom_user\models.py:13
+msgid "is teacher?"
+msgstr "is teacher?"
+
+#: .\custom_user\models.py:14
+msgid "is student?"
+msgstr ""
+
+#: .\custom_user\models.py:17
+msgid "User"
+msgstr "User"
+
+#: .\custom_user\models.py:20
+msgid "user"
+msgstr "user"
+
+#: .\custom_user\models.py:21
+#, fuzzy
+#| msgid "user"
+msgid "users"
+msgstr "user"
+
 #: .\lessons\models.py:6
 msgid "name"
 msgstr "name"
@@ -53,7 +101,7 @@ msgstr "Can't be longer than 5 characters"
 msgid "short name"
 msgstr "short name"
 
-#: .\lessons\models.py:13 .\tables\models.py:43
+#: .\lessons\models.py:13 .\tables\models.py:31
 msgid "lesson"
 msgstr "lesson"
 
@@ -61,85 +109,67 @@ msgstr "lesson"
 msgid "lessons"
 msgstr "lessons"
 
-#: .\tables\models.py:12
+#: .\tables\models.py:14
 msgid "Monday"
 msgstr "Monday"
 
-#: .\tables\models.py:13
+#: .\tables\models.py:15
 msgid "Tuesday"
 msgstr "Tuesday"
 
-#: .\tables\models.py:14
+#: .\tables\models.py:16
 msgid "Wednesday"
 msgstr "Wednesday"
 
-#: .\tables\models.py:15
+#: .\tables\models.py:17
 msgid "Thursday"
 msgstr "Thursday"
 
-#: .\tables\models.py:16
+#: .\tables\models.py:18
 msgid "Friday"
 msgstr "Friday"
 
-#: .\tables\models.py:17
+#: .\tables\models.py:19
 msgid "Saturday"
 msgstr "Saturday"
 
-#: .\tables\models.py:18
+#: .\tables\models.py:20
 msgid "Sunday"
 msgstr "Sunday"
 
-#: .\tables\models.py:23
-msgid "user"
-msgstr "user"
-
-#: .\tables\models.py:24 .\tables\models.py:32
-msgid "selected teacher"
-msgstr "selected teacher"
-
-#: .\tables\models.py:26
-msgid "is teacher?"
-msgstr "is teacher?"
-
-#: .\tables\models.py:29
-msgid "User"
-msgstr "User"
-
-#: .\tables\models.py:33
-#, fuzzy
-#| msgid "selected teacher"
-msgid "selected teachers"
-msgstr "selected teacher"
-
-#: .\tables\models.py:37 .\teachers\models.py:16
+#: .\tables\models.py:25 .\teachers\models.py:16
 msgid "teacher"
 msgstr "teacher"
 
-#: .\tables\models.py:38
+#: .\tables\models.py:26
 msgid "weekday"
 msgstr "weekday"
 
-#: .\tables\models.py:40
+#: .\tables\models.py:28
 msgid "There can't be more than 8 lessons"
 msgstr "There can't be more than 8 lessons"
 
-#: .\tables\models.py:41
+#: .\tables\models.py:29
 msgid "lesson number"
 msgstr "lesson number"
 
-#: .\tables\models.py:44
+#: .\tables\models.py:32
 msgid "class name"
 msgstr "class name"
 
-#: .\tables\models.py:45
+#: .\tables\models.py:33
 msgid "classroom"
 msgstr "classroom"
 
-#: .\tables\models.py:51
+#: .\tables\models.py:34
+msgid "by groups"
+msgstr ""
+
+#: .\tables\models.py:47
 msgid "timetable"
 msgstr "timetable"
 
-#: .\tables\models.py:52
+#: .\tables\models.py:48
 msgid "timetables"
 msgstr "timetables"
 
@@ -164,54 +194,51 @@ msgid "teachers"
 msgstr "teachers"
 
 #: .\templates\jinja\base.html:7
+msgid "Timetable for puppils and teachers of School #91, Ukraine, Kiev"
+msgstr ""
+
+#: .\templates\jinja\base.html:8
+#: .\templates\jinja\timetable\user_settings.html:7
+#: .\templates\jinja\timetable\user_settings.html:22
 #, fuzzy
 #| msgid "timetable"
 msgid "Timetable"
 msgstr "timetable"
 
-#: .\templates\jinja\base.html:13
+#: .\templates\jinja\base.html:14
 msgid "Main"
 msgstr ""
 
-#: .\templates\jinja\base.html:14
+#: .\templates\jinja\base.html:15
 #, fuzzy
 #| msgid "lessons"
 msgid "All lessons"
 msgstr "lessons"
 
-#: .\templates\jinja\base.html:15
+#: .\templates\jinja\base.html:16
 msgid "Lesson by Teachers"
 msgstr ""
 
-#: .\templates\jinja\base.html:18
+#: .\templates\jinja\base.html:19
 #, python-format
 msgid "Hello, %(user)s"
 msgstr ""
 
-#: .\templates\jinja\base.html:19 .\templates\jinja\timetable\test.html:8
-#, fuzzy
-#| msgid "selected teacher"
-msgid "Select teacher"
-msgstr "selected teacher"
-
 #: .\templates\jinja\base.html:20
+msgid "Admin panel"
+msgstr ""
+
+#: .\templates\jinja\base.html:21
+#: .\templates\jinja\timetable\user_settings.html:3
+msgid "Settings"
+msgstr ""
+
+#: .\templates\jinja\base.html:22
 msgid "Log out"
 msgstr ""
 
-#: .\templates\jinja\base.html:29
+#: .\templates\jinja\base.html:31
 msgid "No content on this page"
-msgstr ""
-
-#: .\templates\jinja\timetable\select.html:3
-#, fuzzy
-#| msgid "selected teacher"
-msgid "Select Preferred Teacher"
-msgstr "selected teacher"
-
-#: .\templates\jinja\timetable\select.html:16
-#: .\templates\jinja\timetable\select.html:26
-#: .\templates\jinja\timetable\test.html:13
-msgid "Select"
 msgstr ""
 
 #: .\templates\jinja\timetable\students_week.html:3
@@ -220,8 +247,8 @@ msgstr ""
 msgid "Student's timetable"
 msgstr "timetable"
 
-#: .\templates\jinja\timetable\students_week.html:12
-#: .\templates\jinja\timetable\students_week.html:24
+#: .\templates\jinja\timetable\students_week.html:13
+#: .\templates\jinja\timetable\students_week.html:25
 #: .\templates\jinja\timetable\test.html:22
 #: .\templates\jinja\timetable\test.html:64
 #: .\templates\jinja\timetable\timetable.html:13
@@ -229,8 +256,8 @@ msgstr "timetable"
 msgid "Number"
 msgstr ""
 
-#: .\templates\jinja\timetable\students_week.html:13
-#: .\templates\jinja\timetable\students_week.html:25
+#: .\templates\jinja\timetable\students_week.html:14
+#: .\templates\jinja\timetable\students_week.html:26
 #: .\templates\jinja\timetable\test.html:23
 #: .\templates\jinja\timetable\test.html:65
 #: .\templates\jinja\timetable\timetable.html:14
@@ -240,8 +267,8 @@ msgstr ""
 msgid "Lesson"
 msgstr "lesson"
 
-#: .\templates\jinja\timetable\students_week.html:14
-#: .\templates\jinja\timetable\students_week.html:26
+#: .\templates\jinja\timetable\students_week.html:15
+#: .\templates\jinja\timetable\students_week.html:27
 #: .\templates\jinja\timetable\test.html:24
 #: .\templates\jinja\timetable\test.html:66
 #: .\templates\jinja\timetable\timetable.html:15
@@ -257,6 +284,19 @@ msgstr "class"
 msgid "Teacher's timetable"
 msgstr "timetable"
 
+#: .\templates\jinja\timetable\test.html:8
+#, fuzzy
+#| msgid "selected teacher"
+msgid "Select teacher"
+msgstr "selected teacher"
+
+#: .\templates\jinja\timetable\test.html:13
+#: .\templates\jinja\timetable\user_settings.html:19
+#: .\templates\jinja\timetable\user_settings.html:34
+#: .\templates\jinja\timetable\user_settings.html:51
+msgid "Select"
+msgstr ""
+
 #: .\templates\jinja\timetable\test.html:25
 #: .\templates\jinja\timetable\test.html:67
 #: .\templates\jinja\timetable\timetable.html:16
@@ -268,10 +308,28 @@ msgstr ""
 msgid "You have no lessons today, be happy =)"
 msgstr ""
 
-#: .\timetable\settings.py:142
+#: .\templates\jinja\timetable\user_settings.html:10
+msgid "Teacher to follow"
+msgstr ""
+
+#: .\templates\jinja\timetable\user_settings.html:25
+msgid "Class to follow"
+msgstr ""
+
+#: .\templates\jinja\timetable\user_settings.html:42
+#: .\templates\jinja\timetable\user_settings.html:45
+msgid "Language"
+msgstr ""
+
+#: .\timetable\settings.py:143
 msgid "English"
 msgstr "English"
 
-#: .\timetable\settings.py:143
+#: .\timetable\settings.py:144
 msgid "Ukrainian"
 msgstr "Ukrainian"
+
+#, fuzzy
+#~| msgid "selected teacher"
+#~ msgid "Select Preferred Teacher"
+#~ msgstr "selected teacher"

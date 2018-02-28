@@ -16,7 +16,7 @@
     </tr>
   {% endif %}
   
-  {% if  loop.previtem is defined and klass.class_name != loop.previtem.class_name %}
+  {% if loop.previtem is defined and klass.class_name != loop.previtem.class_name %}
   </table>
   <br />
   <table>
@@ -28,11 +28,20 @@
     </tr>
   {% endif %}
 
+  {% if klass.by_groups and loop.nextitem is defined and loop.nextitem.lesson_number == klass.lesson_number and loop.nextitem.by_groups %}
+  {% elif loop.previtem is defined and (klass.by_groups) and (loop.previtem.lesson_number == klass.lesson_number) and loop.previtem.by_groups %}
+  <tr>
+    <td>{{ klass.lesson_number }}</td>
+    <td>{{ klass.lesson }}</td>
+    <td>{{ klass.classroom }}/{{ loop.previtem.classroom }}</td>
+  </tr>
+  {% else %}
   <tr>
     <td>{{ klass.lesson_number }}</td>
     <td>{{ klass.lesson }}</td>
     <td>{{ klass.classroom }}</td>
   </tr>
+  {% endif %}
 
 {% endfor %}
 </table>

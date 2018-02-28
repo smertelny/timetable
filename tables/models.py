@@ -31,6 +31,7 @@ class Timetable(models.Model):
     lesson = models.ForeignKey(Lessons, on_delete=models.SET_NULL, blank=True, null=True, verbose_name=_("lesson"))
     class_name = models.ForeignKey(Class, on_delete=models.SET_NULL, blank=True, null=True, verbose_name=_("class name"))
     classroom = models.IntegerField(verbose_name=_("classroom"))
+    by_groups = models.BooleanField(verbose_name=_("by groups"), default=False)
 
     def __str__(self):
         return str(format_lazy("#{num} - {weekday}", num=self.lesson_number, weekday=self.get_weekday_display()))

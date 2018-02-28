@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content={{ _("Timetable for puppils and teachers of School #91, Ukraine, Kiev") }}>
     <title>{% block title %}|{{ _("Timetable") }}{% endblock title %}</title>
     {% block style %}{% endblock style %}
     <link rel="stylesheet" type="text/css" href="{{ static('css/style.css') }}" />
@@ -11,8 +12,8 @@
 <body>
     <nav>
         <a href="{{ url('timetable:index') }}">{{ _("Main") }}</a> |
-        <a href="{{ url('timetable:week') }}">{{ _("All lessons") }}</a> |
-        {% if request.user.is_teacher %}<a href="{{ url('timetable:test') }}">{{ _("Lesson by Teachers") }} (test)</a>{% endif %}
+        {% if request.user.is_teacher %}<a href="{{ url('timetable:week') }}">{{ _("All lessons") }}</a> |
+        <a href="{{ url('timetable:test') }}">{{ _("Lesson by Teachers") }} (test)</a>{% endif %}
         {% if request.user.is_authenticated %}
         <div class="login">
             <span>{{ _("Hello, %(user)s")|format(user=request.user.username) }}</span> | 
