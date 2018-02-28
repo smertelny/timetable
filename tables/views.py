@@ -13,7 +13,7 @@ def index(request):
     weekday = datetime.date.today().weekday()
     if request.user.is_anonymous:
         lessons = Timetable._get_today()\
-        .order_by("class_name")
+        .order_by("class_name", "lesson_number")
         return render(
             request,
             "timetable/students_week.html",
