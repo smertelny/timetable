@@ -10,8 +10,9 @@ class Teacher(models.Model):
     default_classroom = models.SmallIntegerField(verbose_name=_("default classroom"))
 
     def __str__(self):
-        return "{} {}".format(self.first_name, self.second_name)
+        return "{} {}".format(self.second_name, self.first_name)
 
     class Meta:
         verbose_name = _("teacher")
         verbose_name_plural = _("teachers")
+        ordering = ('second_name', 'first_name')

@@ -12,3 +12,4 @@ class Lessons(models.Model):
     class Meta:
         verbose_name = _('lesson')
         verbose_name_plural = _('lessons')
+        ordering = ("name", )
