@@ -35,11 +35,11 @@ msgstr "індекс"
 
 #: .\classes\models.py:17
 msgid "class"
-msgstr "кабінет"
+msgstr "клас"
 
 #: .\classes\models.py:18
 msgid "classes"
-msgstr "кабінети"
+msgstr "класи"
 
 #: .\custom_user\admin.py:10
 msgid "Timetable App settings"

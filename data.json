@@ -1,357 +1,5 @@
 [
 {
-  "model": "tables.timetable",
-  "pk": 1,
-  "fields": {
-    "teacher": 1,
-    "weekday": 1,
-    "lesson_number": 1,
-    "lesson": 1,
-    "class_name": 9,
-    "classroom": 408
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 2,
-  "fields": {
-    "teacher": 1,
-    "weekday": 1,
-    "lesson_number": 2,
-    "lesson": 1,
-    "class_name": 9,
-    "classroom": 408
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 3,
-  "fields": {
-    "teacher": 1,
-    "weekday": 1,
-    "lesson_number": 3,
-    "lesson": 1,
-    "class_name": 5,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 4,
-  "fields": {
-    "teacher": 1,
-    "weekday": 1,
-    "lesson_number": 6,
-    "lesson": 1,
-    "class_name": 11,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 5,
-  "fields": {
-    "teacher": 1,
-    "weekday": 1,
-    "lesson_number": 5,
-    "lesson": 1,
-    "class_name": 11,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 6,
-  "fields": {
-    "teacher": 1,
-    "weekday": 1,
-    "lesson_number": 7,
-    "lesson": 1,
-    "class_name": 12,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 7,
-  "fields": {
-    "teacher": 1,
-    "weekday": 2,
-    "lesson_number": 1,
-    "lesson": 1,
-    "class_name": 7,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 8,
-  "fields": {
-    "teacher": 1,
-    "weekday": 2,
-    "lesson_number": 2,
-    "lesson": 1,
-    "class_name": 7,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 9,
-  "fields": {
-    "teacher": 1,
-    "weekday": 2,
-    "lesson_number": 3,
-    "lesson": 1,
-    "class_name": 8,
-    "classroom": 309
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 10,
-  "fields": {
-    "teacher": 1,
-    "weekday": 2,
-    "lesson_number": 5,
-    "lesson": 1,
-    "class_name": 10,
-    "classroom": 408
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 11,
-  "fields": {
-    "teacher": 1,
-    "weekday": 2,
-    "lesson_number": 6,
-    "lesson": 1,
-    "class_name": 11,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 12,
-  "fields": {
-    "teacher": 1,
-    "weekday": 2,
-    "lesson_number": 7,
-    "lesson": 1,
-    "class_name": 11,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 13,
-  "fields": {
-    "teacher": 1,
-    "weekday": 3,
-    "lesson_number": 2,
-    "lesson": 1,
-    "class_name": 6,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 14,
-  "fields": {
-    "teacher": 1,
-    "weekday": 3,
-    "lesson_number": 3,
-    "lesson": 1,
-    "class_name": 5,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 15,
-  "fields": {
-    "teacher": 1,
-    "weekday": 3,
-    "lesson_number": 4,
-    "lesson": 1,
-    "class_name": 9,
-    "classroom": 408
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 16,
-  "fields": {
-    "teacher": 1,
-    "weekday": 3,
-    "lesson_number": 5,
-    "lesson": 1,
-    "class_name": 10,
-    "classroom": 408
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 17,
-  "fields": {
-    "teacher": 1,
-    "weekday": 3,
-    "lesson_number": 6,
-    "lesson": 1,
-    "class_name": 12,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 18,
-  "fields": {
-    "teacher": 1,
-    "weekday": 3,
-    "lesson_number": 7,
-    "lesson": 1,
-    "class_name": 12,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 19,
-  "fields": {
-    "teacher": 1,
-    "weekday": 4,
-    "lesson_number": 1,
-    "lesson": 1,
-    "class_name": 6,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 20,
-  "fields": {
-    "teacher": 1,
-    "weekday": 4,
-    "lesson_number": 2,
-    "lesson": 1,
-    "class_name": 11,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 21,
-  "fields": {
-    "teacher": 1,
-    "weekday": 4,
-    "lesson_number": 4,
-    "lesson": 3,
-    "class_name": 12,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 22,
-  "fields": {
-    "teacher": 1,
-    "weekday": 4,
-    "lesson_number": 7,
-    "lesson": 1,
-    "class_name": 10,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 23,
-  "fields": {
-    "teacher": 1,
-    "weekday": 0,
-    "lesson_number": 2,
-    "lesson": 1,
-    "class_name": 12,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 24,
-  "fields": {
-    "teacher": 1,
-    "weekday": 0,
-    "lesson_number": 3,
-    "lesson": 1,
-    "class_name": 12,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 25,
-  "fields": {
-    "teacher": 1,
-    "weekday": 0,
-    "lesson_number": 4,
-    "lesson": 1,
-    "class_name": 7,
-    "classroom": 309
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 26,
-  "fields": {
-    "teacher": 1,
-    "weekday": 0,
-    "lesson_number": 6,
-    "lesson": 1,
-    "class_name": 8,
-    "classroom": 303
-  }
-},
-{
-  "model": "tables.timetable",
-  "pk": 27,
-  "fields": {
-    "teacher": 1,
-    "weekday": 0,
-    "lesson_number": 7,
-    "lesson": 1,
-    "class_name": 8,
-    "classroom": 303
-  }
-},
-{
-  "model": "teachers.teacher",
-  "pk": 1,
-  "fields": {
-    "first_name": "Serghii",
-    "first_name_en_us": "Serghii",
-    "first_name_uk": "\u0421\u0435\u0440\u0433\u0456\u0439",
-    "second_name": "Smertelny",
-    "second_name_en_us": "Smertelny",
-    "second_name_uk": "\u0421\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u0438\u0439",
-    "is_class_teacher": false,
-    "default_classroom": 303
-  }
-},
-{
-  "model": "teachers.teacher",
-  "pk": 2,
-  "fields": {
-    "first_name": "Dmitrii",
-    "first_name_en_us": "Dmitrii",
-    "first_name_uk": "\u0414\u043c\u0438\u0442\u0440\u043e",
-    "second_name": "Oleksievets",
-    "second_name_en_us": "Oleksievets",
-    "second_name_uk": "\u041e\u043b\u0435\u043a\u0441\u0456\u0454\u0432\u0435\u0446\u044c",
-    "is_class_teacher": false,
-    "default_classroom": 307
-  }
-},
-{
   "model": "classes.class",
   "pk": 1,
   "fields": {
@@ -505,6 +153,6364 @@
     "short_name": "Draw",
     "short_name_en_us": "Draw",
     "short_name_uk": "\u041a\u0440\u0435\u0441"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 4,
+  "fields": {
+    "name": "Mathematics",
+    "name_en_us": "Mathematics",
+    "name_uk": "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430",
+    "short_name": "Math",
+    "short_name_en_us": "Math",
+    "short_name_uk": "\u041c\u0430\u0442\u0435\u043c"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 5,
+  "fields": {
+    "name": "\u0410lgebra",
+    "name_en_us": "\u0410lgebra",
+    "name_uk": "\u0410\u043b\u0433\u0435\u0431\u0440\u0430",
+    "short_name": "\u0410lgeb",
+    "short_name_en_us": "\u0410lgeb",
+    "short_name_uk": "\u0410\u043b\u0433"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 6,
+  "fields": {
+    "name": "Geometry",
+    "name_en_us": "Geometry",
+    "name_uk": "\u0413\u0435\u043e\u043c\u0435\u0442\u0440\u0456\u044f",
+    "short_name": "Geom",
+    "short_name_en_us": "Geom",
+    "short_name_uk": "\u0413\u0435\u043e\u043c"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 7,
+  "fields": {
+    "name": "Foreign literature",
+    "name_en_us": "Foreign literature",
+    "name_uk": "\u0417\u0430\u0440\u0443\u0431\u0456\u0436\u043d\u0430 \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430",
+    "short_name": "F.L.",
+    "short_name_en_us": "F.L.",
+    "short_name_uk": "\u0417\u0430\u0440.\u043b"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 8,
+  "fields": {
+    "name": "Russian",
+    "name_en_us": "Russian",
+    "name_uk": "\u0420\u043e\u0441\u0456\u0439\u0441\u044c\u043a\u0430 \u043c\u043e\u0432\u0430",
+    "short_name": "Rus",
+    "short_name_en_us": "Rus",
+    "short_name_uk": "\u0420\u043e\u0441.\u043c"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 9,
+  "fields": {
+    "name": "History of Ukraine",
+    "name_en_us": "History of Ukraine",
+    "name_uk": "\u0406\u0441\u0442\u043e\u0440\u0456\u044f \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
+    "short_name": "Urk.H",
+    "short_name_en_us": "Urk.H",
+    "short_name_uk": "\u0423\u043a\u0440.\u0456"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 10,
+  "fields": {
+    "name": "Person and Society",
+    "name_en_us": "Person and Society",
+    "name_uk": "\u041b\u044e\u0434\u0438\u043d\u0430 \u0456 \u0441\u0432\u0456\u0442",
+    "short_name": "PaS",
+    "short_name_en_us": "PaS",
+    "short_name_uk": "\u041b\u0456\u0421"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 11,
+  "fields": {
+    "name": "History",
+    "name_en_us": "History",
+    "name_uk": "\u0412\u0441\u0435\u0441\u0432\u0456\u0442\u043d\u044f \u0406\u0441\u0442\u043e\u0440\u0456\u044f",
+    "short_name": "Hi-ry",
+    "short_name_en_us": "Hi-ry",
+    "short_name_uk": "\u0412\u0441.\u0406\u0441"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 12,
+  "fields": {
+    "name": "jurisprudence",
+    "name_en_us": "jurisprudence",
+    "name_uk": "\u041f\u0440\u0430\u0432\u043e",
+    "short_name": "Juri",
+    "short_name_en_us": "Juri",
+    "short_name_uk": "\u041f\u0440\u0430\u0432\u043e"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 13,
+  "fields": {
+    "name": "physics",
+    "name_en_us": "physics",
+    "name_uk": "\u0424\u0456\u0437\u0438\u043a\u0430",
+    "short_name": "phys",
+    "short_name_en_us": "phys",
+    "short_name_uk": "\u0424\u0456\u0437"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 14,
+  "fields": {
+    "name": "Art",
+    "name_en_us": "Art",
+    "name_uk": "\u041c\u0438\u0441\u0442\u0435\u0446\u0442\u0432\u043e",
+    "short_name": "Art",
+    "short_name_en_us": "Art",
+    "short_name_uk": "\u041c\u0438\u0441\u0442"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 15,
+  "fields": {
+    "name": "Music",
+    "name_en_us": "Music",
+    "name_uk": "\u041c\u0443\u0437\u0438\u0447\u043d\u0435 \u041c\u0438\u0441\u0442\u0435\u0446\u0442\u0432\u043e",
+    "short_name": "Music",
+    "short_name_en_us": "Music",
+    "short_name_uk": "\u041c\u0443\u0437.\u041c"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 16,
+  "fields": {
+    "name": "Ukrainian Literarure",
+    "name_en_us": "Ukrainian Literarure",
+    "name_uk": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043b\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430",
+    "short_name": "Uk.Li",
+    "short_name_en_us": "Uk.Li",
+    "short_name_uk": "\u0423\u043a\u0440.\u043b"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 17,
+  "fields": {
+    "name": "Ukrainian",
+    "name_en_us": "Ukrainian",
+    "name_uk": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043c\u043e\u0432\u0430",
+    "short_name": "Ukr.L",
+    "short_name_en_us": "Ukr.L",
+    "short_name_uk": "\u0423\u043a\u0440.\u043c"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 18,
+  "fields": {
+    "name": "English",
+    "name_en_us": "English",
+    "name_uk": "\u0410\u043d\u0433\u043b\u0456\u0439\u0441\u044c\u043a\u0430 \u043c\u043e\u0432\u0430",
+    "short_name": "Eng",
+    "short_name_en_us": "Eng",
+    "short_name_uk": "\u0410\u043d\u0433.\u043c"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 19,
+  "fields": {
+    "name": "Health",
+    "name_en_us": "Health",
+    "name_uk": "\u041e\u0441\u043d\u043e\u0432\u0438 \u0437\u0434\u043e\u0440\u043e\u0432'\u044f",
+    "short_name": "Healt",
+    "short_name_en_us": "Healt",
+    "short_name_uk": "\u041e\u0417"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 20,
+  "fields": {
+    "name": "Chemistry",
+    "name_en_us": "Chemistry",
+    "name_uk": "\u0425\u0456\u043c\u0456\u044f",
+    "short_name": "Chem",
+    "short_name_en_us": "Chem",
+    "short_name_uk": "\u0425\u0456\u043c\u0456\u044f"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 21,
+  "fields": {
+    "name": "Natural History",
+    "name_en_us": "Natural History",
+    "name_uk": "\u041f\u0440\u0438\u0440\u043e\u0434\u043e\u0437\u043d\u0430\u0432\u0441\u0442\u0432\u043e",
+    "short_name": "NH",
+    "short_name_en_us": "NH",
+    "short_name_uk": "\u041f\u0440\u0438\u0440"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 22,
+  "fields": {
+    "name": "Geography",
+    "name_en_us": "Geography",
+    "name_uk": "\u0413\u0435\u043e\u0433\u0440\u0430\u0444\u0456\u044f",
+    "short_name": "Geo",
+    "short_name_en_us": "Geo",
+    "short_name_uk": "\u0413\u0435\u043e"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 23,
+  "fields": {
+    "name": "Biology",
+    "name_en_us": "Biology",
+    "name_uk": "\u0411\u0456\u043e\u043b\u043e\u0433\u0456\u044f",
+    "short_name": "Biol.",
+    "short_name_en_us": "Biol.",
+    "short_name_uk": "\u0411\u0456\u043e\u043b"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 24,
+  "fields": {
+    "name": "Military Training",
+    "name_en_us": "Military Training",
+    "name_uk": "\u0417\u0430\u0445\u0438\u0441\u0442 \u0412\u0456\u0442\u0447\u0438\u0437\u043d\u0438",
+    "short_name": "MT",
+    "short_name_en_us": "MT",
+    "short_name_uk": "\u0417\u0412"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 25,
+  "fields": {
+    "name": "Ethics",
+    "name_en_us": "Ethics",
+    "name_uk": "\u0415\u0442\u0438\u043a\u0430",
+    "short_name": "Ethic",
+    "short_name_en_us": "Ethic",
+    "short_name_uk": "\u0415\u0442\u0438\u043a\u0430"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 26,
+  "fields": {
+    "name": "art",
+    "name_en_us": "art",
+    "name_uk": "\u041e\u0431\u0440\u0430\u0437\u043e\u0442\u0432\u043e\u0440\u0447\u0435 \u043c\u0438\u0441\u0442\u0435\u0446\u0442\u0432\u043e",
+    "short_name": "art",
+    "short_name_en_us": "art",
+    "short_name_uk": "\u041e\u0431\u0440.\u043c"
+  }
+},
+{
+  "model": "lessons.lessons",
+  "pk": 27,
+  "fields": {
+    "name": "physical education",
+    "name_en_us": "physical education",
+    "name_uk": "\u0424\u0456\u0437\u0438\u0447\u043d\u0430 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0430",
+    "short_name": "PE",
+    "short_name_en_us": "PE",
+    "short_name_uk": "\u0424\u0456\u0437\u0440\u0430"
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 1,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 1,
+    "class_name": 9,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 2,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 9,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 3,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 5,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 4,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 5,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 6,
+  "fields": {
+    "teacher": 1,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 7,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 1,
+    "class_name": 7,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 8,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 7,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 9,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 8,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 10,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 1,
+    "class_name": 10,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 11,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 12,
+  "fields": {
+    "teacher": 1,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 13,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 6,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 14,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 5,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 15,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 1,
+    "class_name": 9,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 16,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 1,
+    "class_name": 10,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 17,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 18,
+  "fields": {
+    "teacher": 1,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 19,
+  "fields": {
+    "teacher": 1,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 1,
+    "class_name": 6,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 20,
+  "fields": {
+    "teacher": 1,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 21,
+  "fields": {
+    "teacher": 1,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 3,
+    "class_name": 12,
+    "classroom": 303,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 22,
+  "fields": {
+    "teacher": 1,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 10,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 23,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 24,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 25,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 1,
+    "class_name": 7,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 26,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 8,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 27,
+  "fields": {
+    "teacher": 1,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 8,
+    "classroom": 303,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 28,
+  "fields": {
+    "teacher": 2,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 2,
+    "class_name": 6,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 29,
+  "fields": {
+    "teacher": 2,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 30,
+  "fields": {
+    "teacher": 2,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 31,
+  "fields": {
+    "teacher": 2,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 2,
+    "class_name": 4,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 32,
+  "fields": {
+    "teacher": 2,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 2,
+    "class_name": 3,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 33,
+  "fields": {
+    "teacher": 2,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 2,
+    "class_name": 2,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 34,
+  "fields": {
+    "teacher": 2,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 2,
+    "class_name": 9,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 35,
+  "fields": {
+    "teacher": 2,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 1,
+    "class_name": 9,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 36,
+  "fields": {
+    "teacher": 2,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 9,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 37,
+  "fields": {
+    "teacher": 2,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 2,
+    "class_name": 7,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 38,
+  "fields": {
+    "teacher": 2,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 39,
+  "fields": {
+    "teacher": 2,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 40,
+  "fields": {
+    "teacher": 2,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 41,
+  "fields": {
+    "teacher": 2,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 2,
+    "class_name": 5,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 42,
+  "fields": {
+    "teacher": 2,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 2,
+    "class_name": 3,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 43,
+  "fields": {
+    "teacher": 2,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 1,
+    "class_name": 10,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 44,
+  "fields": {
+    "teacher": 2,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 45,
+  "fields": {
+    "teacher": 2,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 46,
+  "fields": {
+    "teacher": 2,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 2,
+    "class_name": 11,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 47,
+  "fields": {
+    "teacher": 2,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 2,
+    "class_name": 1,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 48,
+  "fields": {
+    "teacher": 2,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 2,
+    "class_name": 10,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 49,
+  "fields": {
+    "teacher": 2,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 1,
+    "class_name": 9,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 50,
+  "fields": {
+    "teacher": 2,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 1,
+    "class_name": 10,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 51,
+  "fields": {
+    "teacher": 2,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 52,
+  "fields": {
+    "teacher": 2,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 12,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 53,
+  "fields": {
+    "teacher": 2,
+    "weekday": 3,
+    "lesson_number": 8,
+    "lesson": 2,
+    "class_name": 12,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 54,
+  "fields": {
+    "teacher": 2,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 2,
+    "class_name": 4,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 55,
+  "fields": {
+    "teacher": 2,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 11,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 56,
+  "fields": {
+    "teacher": 2,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 2,
+    "class_name": 8,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 57,
+  "fields": {
+    "teacher": 2,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 2,
+    "class_name": 1,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 58,
+  "fields": {
+    "teacher": 2,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 2,
+    "class_name": 2,
+    "classroom": 307,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 59,
+  "fields": {
+    "teacher": 2,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 10,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 60,
+  "fields": {
+    "teacher": 3,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 4,
+    "class_name": 3,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 61,
+  "fields": {
+    "teacher": 3,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 4,
+    "class_name": 4,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 62,
+  "fields": {
+    "teacher": 3,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 5,
+    "class_name": 5,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 63,
+  "fields": {
+    "teacher": 3,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 5,
+    "class_name": 8,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 64,
+  "fields": {
+    "teacher": 3,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 6,
+    "class_name": 5,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 65,
+  "fields": {
+    "teacher": 3,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 4,
+    "class_name": 4,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 66,
+  "fields": {
+    "teacher": 3,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 4,
+    "class_name": 3,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 67,
+  "fields": {
+    "teacher": 3,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 6,
+    "class_name": 6,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 68,
+  "fields": {
+    "teacher": 3,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 4,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 69,
+  "fields": {
+    "teacher": 3,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 3,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 70,
+  "fields": {
+    "teacher": 3,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 4,
+    "class_name": 3,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 71,
+  "fields": {
+    "teacher": 3,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 4,
+    "class_name": 4,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 72,
+  "fields": {
+    "teacher": 3,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 5,
+    "class_name": 6,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 73,
+  "fields": {
+    "teacher": 3,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 5,
+    "class_name": 5,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 74,
+  "fields": {
+    "teacher": 3,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 5,
+    "class_name": 8,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 75,
+  "fields": {
+    "teacher": 3,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 4,
+    "class_name": 3,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 76,
+  "fields": {
+    "teacher": 3,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 4,
+    "class_name": 4,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 77,
+  "fields": {
+    "teacher": 3,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 6,
+    "class_name": 8,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 78,
+  "fields": {
+    "teacher": 3,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 6,
+    "class_name": 6,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 79,
+  "fields": {
+    "teacher": 3,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 6,
+    "class_name": 5,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 80,
+  "fields": {
+    "teacher": 3,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 4,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 81,
+  "fields": {
+    "teacher": 3,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 3,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 82,
+  "fields": {
+    "teacher": 3,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 4,
+    "class_name": 3,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 83,
+  "fields": {
+    "teacher": 3,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 4,
+    "class_name": 4,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 84,
+  "fields": {
+    "teacher": 3,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 5,
+    "class_name": 6,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 85,
+  "fields": {
+    "teacher": 3,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 5,
+    "class_name": 8,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 86,
+  "fields": {
+    "teacher": 4,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 5,
+    "class_name": 7,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 87,
+  "fields": {
+    "teacher": 4,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 2,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 88,
+  "fields": {
+    "teacher": 4,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 1,
+    "class_name": 1,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 89,
+  "fields": {
+    "teacher": 4,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 6,
+    "class_name": 7,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 90,
+  "fields": {
+    "teacher": 4,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 5,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 91,
+  "fields": {
+    "teacher": 4,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 4,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 92,
+  "fields": {
+    "teacher": 4,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 3,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 93,
+  "fields": {
+    "teacher": 4,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 5,
+    "class_name": 7,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 94,
+  "fields": {
+    "teacher": 4,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 2,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 95,
+  "fields": {
+    "teacher": 4,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 1,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 96,
+  "fields": {
+    "teacher": 4,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 5,
+    "class_name": 7,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 97,
+  "fields": {
+    "teacher": 4,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 6,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 98,
+  "fields": {
+    "teacher": 4,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 5,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 99,
+  "fields": {
+    "teacher": 4,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 4,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 100,
+  "fields": {
+    "teacher": 4,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 3,
+    "classroom": 309,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 101,
+  "fields": {
+    "teacher": 4,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 1,
+    "class_name": 6,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 102,
+  "fields": {
+    "teacher": 4,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 6,
+    "class_name": 7,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 103,
+  "fields": {
+    "teacher": 5,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 7,
+    "class_name": 11,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 104,
+  "fields": {
+    "teacher": 5,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 7,
+    "class_name": 10,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 105,
+  "fields": {
+    "teacher": 5,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 7,
+    "class_name": 9,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 106,
+  "fields": {
+    "teacher": 5,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 7,
+    "class_name": 12,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 107,
+  "fields": {
+    "teacher": 5,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 7,
+    "class_name": 7,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 108,
+  "fields": {
+    "teacher": 5,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 8,
+    "class_name": 10,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 109,
+  "fields": {
+    "teacher": 5,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 8,
+    "class_name": 9,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 110,
+  "fields": {
+    "teacher": 5,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 7,
+    "class_name": 10,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 111,
+  "fields": {
+    "teacher": 5,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 7,
+    "class_name": 7,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 112,
+  "fields": {
+    "teacher": 5,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 7,
+    "class_name": 9,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 113,
+  "fields": {
+    "teacher": 6,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 9,
+    "class_name": 12,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 114,
+  "fields": {
+    "teacher": 6,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 10,
+    "class_name": 12,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 115,
+  "fields": {
+    "teacher": 6,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 9,
+    "class_name": 9,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 116,
+  "fields": {
+    "teacher": 6,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 11,
+    "class_name": 9,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 117,
+  "fields": {
+    "teacher": 6,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 9,
+    "class_name": 10,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 118,
+  "fields": {
+    "teacher": 6,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 9,
+    "class_name": 9,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 119,
+  "fields": {
+    "teacher": 6,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 11,
+    "class_name": 12,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 120,
+  "fields": {
+    "teacher": 6,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 12,
+    "class_name": 9,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 121,
+  "fields": {
+    "teacher": 6,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 12,
+    "class_name": 10,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 122,
+  "fields": {
+    "teacher": 6,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 11,
+    "class_name": 10,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 123,
+  "fields": {
+    "teacher": 6,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 9,
+    "class_name": 10,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 124,
+  "fields": {
+    "teacher": 7,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 13,
+    "class_name": 5,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 125,
+  "fields": {
+    "teacher": 7,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 13,
+    "class_name": 6,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 126,
+  "fields": {
+    "teacher": 7,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 13,
+    "class_name": 8,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 127,
+  "fields": {
+    "teacher": 7,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 13,
+    "class_name": 9,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 128,
+  "fields": {
+    "teacher": 7,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 13,
+    "class_name": 12,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 129,
+  "fields": {
+    "teacher": 7,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 13,
+    "class_name": 12,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 130,
+  "fields": {
+    "teacher": 8,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 14,
+    "class_name": 10,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 131,
+  "fields": {
+    "teacher": 7,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 13,
+    "class_name": 10,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 132,
+  "fields": {
+    "teacher": 8,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 15,
+    "class_name": 4,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 134,
+  "fields": {
+    "teacher": 7,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 13,
+    "class_name": 11,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 135,
+  "fields": {
+    "teacher": 8,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 15,
+    "class_name": 1,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 136,
+  "fields": {
+    "teacher": 7,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 13,
+    "class_name": 9,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 137,
+  "fields": {
+    "teacher": 8,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 15,
+    "class_name": 6,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 138,
+  "fields": {
+    "teacher": 8,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 14,
+    "class_name": 8,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 139,
+  "fields": {
+    "teacher": 7,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 13,
+    "class_name": 7,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 140,
+  "fields": {
+    "teacher": 8,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 15,
+    "class_name": 3,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 141,
+  "fields": {
+    "teacher": 7,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 13,
+    "class_name": 10,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 142,
+  "fields": {
+    "teacher": 8,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 14,
+    "class_name": 7,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 143,
+  "fields": {
+    "teacher": 7,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 13,
+    "class_name": 11,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 145,
+  "fields": {
+    "teacher": 7,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 13,
+    "class_name": 5,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 146,
+  "fields": {
+    "teacher": 8,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 14,
+    "class_name": 9,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 147,
+  "fields": {
+    "teacher": 7,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 13,
+    "class_name": 6,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 148,
+  "fields": {
+    "teacher": 8,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 15,
+    "class_name": 5,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 149,
+  "fields": {
+    "teacher": 7,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 13,
+    "class_name": 12,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 150,
+  "fields": {
+    "teacher": 7,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 13,
+    "class_name": 8,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 151,
+  "fields": {
+    "teacher": 7,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 13,
+    "class_name": 7,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 152,
+  "fields": {
+    "teacher": 7,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 13,
+    "class_name": 10,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 153,
+  "fields": {
+    "teacher": 7,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 13,
+    "class_name": 9,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 154,
+  "fields": {
+    "teacher": 9,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 16,
+    "class_name": 12,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 155,
+  "fields": {
+    "teacher": 9,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 9,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 156,
+  "fields": {
+    "teacher": 10,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 17,
+    "class_name": 4,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 157,
+  "fields": {
+    "teacher": 9,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 7,
+    "class_name": 5,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 158,
+  "fields": {
+    "teacher": 9,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 17,
+    "class_name": 12,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 159,
+  "fields": {
+    "teacher": 10,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 3,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 160,
+  "fields": {
+    "teacher": 9,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 7,
+    "class_name": 6,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 161,
+  "fields": {
+    "teacher": 9,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 16,
+    "class_name": 10,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 162,
+  "fields": {
+    "teacher": 9,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 7,
+    "class_name": 3,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 163,
+  "fields": {
+    "teacher": 9,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 10,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 164,
+  "fields": {
+    "teacher": 10,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 17,
+    "class_name": 1,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 165,
+  "fields": {
+    "teacher": 9,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 17,
+    "class_name": 9,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 166,
+  "fields": {
+    "teacher": 10,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 16,
+    "class_name": 4,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 167,
+  "fields": {
+    "teacher": 9,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 7,
+    "class_name": 4,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 168,
+  "fields": {
+    "teacher": 10,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 17,
+    "class_name": 1,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 169,
+  "fields": {
+    "teacher": 9,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 16,
+    "class_name": 10,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 170,
+  "fields": {
+    "teacher": 10,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 17,
+    "class_name": 8,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 171,
+  "fields": {
+    "teacher": 9,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 7,
+    "class_name": 2,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 172,
+  "fields": {
+    "teacher": 10,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 16,
+    "class_name": 1,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 173,
+  "fields": {
+    "teacher": 9,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 17,
+    "class_name": 9,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 174,
+  "fields": {
+    "teacher": 10,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 16,
+    "class_name": 3,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 175,
+  "fields": {
+    "teacher": 9,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 7,
+    "class_name": 1,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 176,
+  "fields": {
+    "teacher": 9,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 7,
+    "class_name": 6,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 177,
+  "fields": {
+    "teacher": 10,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 16,
+    "class_name": 8,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 178,
+  "fields": {
+    "teacher": 9,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 7,
+    "class_name": 5,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 179,
+  "fields": {
+    "teacher": 10,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 17,
+    "class_name": 1,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 180,
+  "fields": {
+    "teacher": 9,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 16,
+    "class_name": 10,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 181,
+  "fields": {
+    "teacher": 10,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 7,
+    "class_name": 8,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 182,
+  "fields": {
+    "teacher": 10,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 16,
+    "class_name": 4,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 183,
+  "fields": {
+    "teacher": 9,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 17,
+    "class_name": 9,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 184,
+  "fields": {
+    "teacher": 10,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 16,
+    "class_name": 3,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 185,
+  "fields": {
+    "teacher": 9,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 10,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 186,
+  "fields": {
+    "teacher": 9,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 16,
+    "class_name": 12,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 187,
+  "fields": {
+    "teacher": 10,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 17,
+    "class_name": 8,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 188,
+  "fields": {
+    "teacher": 9,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 16,
+    "class_name": 9,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 189,
+  "fields": {
+    "teacher": 10,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 16,
+    "class_name": 1,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 190,
+  "fields": {
+    "teacher": 9,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 17,
+    "class_name": 12,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 191,
+  "fields": {
+    "teacher": 9,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 12,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 192,
+  "fields": {
+    "teacher": 10,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 17,
+    "class_name": 1,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 193,
+  "fields": {
+    "teacher": 9,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 7,
+    "class_name": 1,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 194,
+  "fields": {
+    "teacher": 9,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 7,
+    "class_name": 2,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 195,
+  "fields": {
+    "teacher": 10,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 3,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 196,
+  "fields": {
+    "teacher": 9,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 7,
+    "class_name": 3,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 197,
+  "fields": {
+    "teacher": 10,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 17,
+    "class_name": 4,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 198,
+  "fields": {
+    "teacher": 9,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 7,
+    "class_name": 4,
+    "classroom": 305,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 199,
+  "fields": {
+    "teacher": 10,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 7,
+    "class_name": 4,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 200,
+  "fields": {
+    "teacher": 10,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 7,
+    "class_name": 3,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 201,
+  "fields": {
+    "teacher": 10,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 7,
+    "class_name": 8,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 202,
+  "fields": {
+    "teacher": 11,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 2,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 203,
+  "fields": {
+    "teacher": 11,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 1,
+    "class_name": 7,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 204,
+  "fields": {
+    "teacher": 11,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 1,
+    "class_name": 1,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 205,
+  "fields": {
+    "teacher": 11,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 8,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 206,
+  "fields": {
+    "teacher": 11,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 8,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 207,
+  "fields": {
+    "teacher": 11,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 1,
+    "class_name": 7,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 208,
+  "fields": {
+    "teacher": 11,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 1,
+    "class_name": 7,
+    "classroom": 307,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 209,
+  "fields": {
+    "teacher": 11,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 1,
+    "class_name": 8,
+    "classroom": 3,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 210,
+  "fields": {
+    "teacher": 11,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 1,
+    "class_name": 2,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 211,
+  "fields": {
+    "teacher": 11,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 1,
+    "class_name": 1,
+    "classroom": 408,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 212,
+  "fields": {
+    "teacher": 3,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 6,
+    "class_name": 8,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 213,
+  "fields": {
+    "teacher": 12,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 2,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 214,
+  "fields": {
+    "teacher": 12,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 17,
+    "class_name": 7,
+    "classroom": 404,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 215,
+  "fields": {
+    "teacher": 12,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 7,
+    "class_name": 2,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 216,
+  "fields": {
+    "teacher": 12,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 17,
+    "class_name": 11,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 217,
+  "fields": {
+    "teacher": 12,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 5,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 218,
+  "fields": {
+    "teacher": 12,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 16,
+    "class_name": 7,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 219,
+  "fields": {
+    "teacher": 12,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 17,
+    "class_name": 2,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 220,
+  "fields": {
+    "teacher": 12,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 16,
+    "class_name": 6,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 221,
+  "fields": {
+    "teacher": 12,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 16,
+    "class_name": 11,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 222,
+  "fields": {
+    "teacher": 12,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 5,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 223,
+  "fields": {
+    "teacher": 12,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 17,
+    "class_name": 2,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 224,
+  "fields": {
+    "teacher": 12,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 16,
+    "class_name": 5,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 225,
+  "fields": {
+    "teacher": 12,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 17,
+    "class_name": 6,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 226,
+  "fields": {
+    "teacher": 12,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 7,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 227,
+  "fields": {
+    "teacher": 12,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 17,
+    "class_name": 2,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 228,
+  "fields": {
+    "teacher": 12,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 17,
+    "class_name": 5,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 229,
+  "fields": {
+    "teacher": 12,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 17,
+    "class_name": 6,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 230,
+  "fields": {
+    "teacher": 12,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 17,
+    "class_name": 11,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 231,
+  "fields": {
+    "teacher": 12,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 16,
+    "class_name": 11,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 232,
+  "fields": {
+    "teacher": 12,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 16,
+    "class_name": 2,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 233,
+  "fields": {
+    "teacher": 12,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 16,
+    "class_name": 6,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 234,
+  "fields": {
+    "teacher": 12,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 16,
+    "class_name": 7,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 235,
+  "fields": {
+    "teacher": 13,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 18,
+    "class_name": 3,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 237,
+  "fields": {
+    "teacher": 13,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 1,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 238,
+  "fields": {
+    "teacher": 13,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 18,
+    "class_name": 4,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 239,
+  "fields": {
+    "teacher": 13,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 18,
+    "class_name": 3,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 240,
+  "fields": {
+    "teacher": 13,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 8,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 241,
+  "fields": {
+    "teacher": 13,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 18,
+    "class_name": 4,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 242,
+  "fields": {
+    "teacher": 13,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 18,
+    "class_name": 3,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 243,
+  "fields": {
+    "teacher": 13,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 18,
+    "class_name": 1,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 244,
+  "fields": {
+    "teacher": 13,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 4,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 245,
+  "fields": {
+    "teacher": 13,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 18,
+    "class_name": 4,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 246,
+  "fields": {
+    "teacher": 13,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 18,
+    "class_name": 3,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 247,
+  "fields": {
+    "teacher": 13,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 18,
+    "class_name": 1,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 248,
+  "fields": {
+    "teacher": 13,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 18,
+    "class_name": 8,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 249,
+  "fields": {
+    "teacher": 13,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 1,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 250,
+  "fields": {
+    "teacher": 14,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 18,
+    "class_name": 6,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 251,
+  "fields": {
+    "teacher": 14,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 18,
+    "class_name": 10,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 252,
+  "fields": {
+    "teacher": 14,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 5,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 253,
+  "fields": {
+    "teacher": 14,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 18,
+    "class_name": 2,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 254,
+  "fields": {
+    "teacher": 14,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 18,
+    "class_name": 10,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 255,
+  "fields": {
+    "teacher": 14,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 18,
+    "class_name": 5,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 256,
+  "fields": {
+    "teacher": 14,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 6,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 257,
+  "fields": {
+    "teacher": 14,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 18,
+    "class_name": 6,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 258,
+  "fields": {
+    "teacher": 14,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 18,
+    "class_name": 5,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 259,
+  "fields": {
+    "teacher": 14,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 18,
+    "class_name": 2,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 260,
+  "fields": {
+    "teacher": 14,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 18,
+    "class_name": 2,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 261,
+  "fields": {
+    "teacher": 14,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 6,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 262,
+  "fields": {
+    "teacher": 14,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 18,
+    "class_name": 5,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 263,
+  "fields": {
+    "teacher": 14,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 18,
+    "class_name": 2,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 264,
+  "fields": {
+    "teacher": 15,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 18,
+    "class_name": 11,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 265,
+  "fields": {
+    "teacher": 15,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 18,
+    "class_name": 11,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 266,
+  "fields": {
+    "teacher": 15,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 18,
+    "class_name": 7,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 267,
+  "fields": {
+    "teacher": 15,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 18,
+    "class_name": 12,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 268,
+  "fields": {
+    "teacher": 15,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 18,
+    "class_name": 12,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 269,
+  "fields": {
+    "teacher": 15,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 9,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 270,
+  "fields": {
+    "teacher": 15,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 18,
+    "class_name": 12,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 271,
+  "fields": {
+    "teacher": 15,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 18,
+    "class_name": 7,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 272,
+  "fields": {
+    "teacher": 15,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 18,
+    "class_name": 11,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 273,
+  "fields": {
+    "teacher": 15,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 18,
+    "class_name": 11,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 274,
+  "fields": {
+    "teacher": 15,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 18,
+    "class_name": 7,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 275,
+  "fields": {
+    "teacher": 15,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 18,
+    "class_name": 9,
+    "classroom": 407,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 276,
+  "fields": {
+    "teacher": 16,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 5,
+    "class_name": 9,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 277,
+  "fields": {
+    "teacher": 16,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 5,
+    "class_name": 10,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 278,
+  "fields": {
+    "teacher": 16,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 4,
+    "class_name": 1,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 279,
+  "fields": {
+    "teacher": 16,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 4,
+    "class_name": 2,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 280,
+  "fields": {
+    "teacher": 16,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 5,
+    "class_name": 11,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 281,
+  "fields": {
+    "teacher": 16,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 6,
+    "class_name": 12,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 282,
+  "fields": {
+    "teacher": 16,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 4,
+    "class_name": 1,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 283,
+  "fields": {
+    "teacher": 16,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 4,
+    "class_name": 2,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 284,
+  "fields": {
+    "teacher": 16,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 6,
+    "class_name": 11,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 285,
+  "fields": {
+    "teacher": 16,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 5,
+    "class_name": 12,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 286,
+  "fields": {
+    "teacher": 16,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 5,
+    "class_name": 12,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 287,
+  "fields": {
+    "teacher": 16,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 6,
+    "class_name": 9,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 288,
+  "fields": {
+    "teacher": 16,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 6,
+    "class_name": 10,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 289,
+  "fields": {
+    "teacher": 16,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 4,
+    "class_name": 1,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 290,
+  "fields": {
+    "teacher": 16,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 4,
+    "class_name": 2,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 291,
+  "fields": {
+    "teacher": 16,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 5,
+    "class_name": 10,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 292,
+  "fields": {
+    "teacher": 16,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 5,
+    "class_name": 11,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 293,
+  "fields": {
+    "teacher": 16,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 5,
+    "class_name": 9,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 294,
+  "fields": {
+    "teacher": 16,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 5,
+    "class_name": 12,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 295,
+  "fields": {
+    "teacher": 16,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 4,
+    "class_name": 2,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 296,
+  "fields": {
+    "teacher": 16,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 6,
+    "class_name": 11,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 297,
+  "fields": {
+    "teacher": 16,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 6,
+    "class_name": 9,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 298,
+  "fields": {
+    "teacher": 16,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 6,
+    "class_name": 10,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 299,
+  "fields": {
+    "teacher": 16,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 6,
+    "class_name": 11,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 300,
+  "fields": {
+    "teacher": 16,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 5,
+    "class_name": 9,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 301,
+  "fields": {
+    "teacher": 16,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 5,
+    "class_name": 10,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 302,
+  "fields": {
+    "teacher": 16,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 4,
+    "class_name": 1,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 303,
+  "fields": {
+    "teacher": 16,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 6,
+    "class_name": 12,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 304,
+  "fields": {
+    "teacher": 16,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 5,
+    "class_name": 11,
+    "classroom": 301,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 305,
+  "fields": {
+    "teacher": 17,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 19,
+    "class_name": 8,
+    "classroom": 309,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 306,
+  "fields": {
+    "teacher": 17,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 20,
+    "class_name": 6,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 307,
+  "fields": {
+    "teacher": 17,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 20,
+    "class_name": 5,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 308,
+  "fields": {
+    "teacher": 17,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 20,
+    "class_name": 9,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 309,
+  "fields": {
+    "teacher": 17,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 20,
+    "class_name": 7,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 310,
+  "fields": {
+    "teacher": 17,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 19,
+    "class_name": 7,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 311,
+  "fields": {
+    "teacher": 17,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 20,
+    "class_name": 10,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 312,
+  "fields": {
+    "teacher": 17,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 20,
+    "class_name": 8,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 313,
+  "fields": {
+    "teacher": 17,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 20,
+    "class_name": 11,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 314,
+  "fields": {
+    "teacher": 17,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 20,
+    "class_name": 12,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 315,
+  "fields": {
+    "teacher": 17,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 19,
+    "class_name": 10,
+    "classroom": 405,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 316,
+  "fields": {
+    "teacher": 17,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 20,
+    "class_name": 9,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 317,
+  "fields": {
+    "teacher": 17,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 20,
+    "class_name": 10,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 318,
+  "fields": {
+    "teacher": 17,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 20,
+    "class_name": 5,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 319,
+  "fields": {
+    "teacher": 17,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 20,
+    "class_name": 6,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 320,
+  "fields": {
+    "teacher": 17,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 20,
+    "class_name": 7,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 321,
+  "fields": {
+    "teacher": 17,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 20,
+    "class_name": 8,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 322,
+  "fields": {
+    "teacher": 17,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 19,
+    "class_name": 9,
+    "classroom": 408,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 323,
+  "fields": {
+    "teacher": 18,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 21,
+    "class_name": 1,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 324,
+  "fields": {
+    "teacher": 18,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 22,
+    "class_name": 11,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 326,
+  "fields": {
+    "teacher": 18,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 22,
+    "class_name": 6,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 327,
+  "fields": {
+    "teacher": 18,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 22,
+    "class_name": 5,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 328,
+  "fields": {
+    "teacher": 18,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 22,
+    "class_name": 7,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 329,
+  "fields": {
+    "teacher": 18,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 22,
+    "class_name": 12,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 330,
+  "fields": {
+    "teacher": 18,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 22,
+    "class_name": 6,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 331,
+  "fields": {
+    "teacher": 18,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 22,
+    "class_name": 3,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 332,
+  "fields": {
+    "teacher": 18,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 22,
+    "class_name": 4,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 333,
+  "fields": {
+    "teacher": 18,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 22,
+    "class_name": 8,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 334,
+  "fields": {
+    "teacher": 18,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 22,
+    "class_name": 10,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 335,
+  "fields": {
+    "teacher": 18,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 22,
+    "class_name": 9,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 336,
+  "fields": {
+    "teacher": 18,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 21,
+    "class_name": 2,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 337,
+  "fields": {
+    "teacher": 18,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 22,
+    "class_name": 6,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 338,
+  "fields": {
+    "teacher": 18,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 22,
+    "class_name": 7,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 339,
+  "fields": {
+    "teacher": 18,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 22,
+    "class_name": 5,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 340,
+  "fields": {
+    "teacher": 18,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 21,
+    "class_name": 1,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 341,
+  "fields": {
+    "teacher": 18,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 22,
+    "class_name": 11,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 342,
+  "fields": {
+    "teacher": 18,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 19,
+    "class_name": 2,
+    "classroom": 1,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 343,
+  "fields": {
+    "teacher": 18,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 21,
+    "class_name": 2,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 344,
+  "fields": {
+    "teacher": 18,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 22,
+    "class_name": 3,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 345,
+  "fields": {
+    "teacher": 18,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 22,
+    "class_name": 4,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 346,
+  "fields": {
+    "teacher": 18,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 19,
+    "class_name": 5,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 347,
+  "fields": {
+    "teacher": 19,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 23,
+    "class_name": 10,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 348,
+  "fields": {
+    "teacher": 19,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 23,
+    "class_name": 9,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 349,
+  "fields": {
+    "teacher": 19,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 23,
+    "class_name": 3,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 350,
+  "fields": {
+    "teacher": 19,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 23,
+    "class_name": 4,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 351,
+  "fields": {
+    "teacher": 19,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 24,
+    "class_name": 11,
+    "classroom": 403,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 352,
+  "fields": {
+    "teacher": 19,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 24,
+    "class_name": 11,
+    "classroom": 403,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 353,
+  "fields": {
+    "teacher": 19,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 23,
+    "class_name": 6,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 354,
+  "fields": {
+    "teacher": 19,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 23,
+    "class_name": 8,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 355,
+  "fields": {
+    "teacher": 19,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 23,
+    "class_name": 12,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 356,
+  "fields": {
+    "teacher": 19,
+    "weekday": 1,
+    "lesson_number": 4,
+    "lesson": 19,
+    "class_name": 1,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 357,
+  "fields": {
+    "teacher": 19,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 23,
+    "class_name": 5,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 358,
+  "fields": {
+    "teacher": 19,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 23,
+    "class_name": 7,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 359,
+  "fields": {
+    "teacher": 19,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 23,
+    "class_name": 8,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 360,
+  "fields": {
+    "teacher": 19,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 19,
+    "class_name": 3,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 361,
+  "fields": {
+    "teacher": 19,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 23,
+    "class_name": 12,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 362,
+  "fields": {
+    "teacher": 19,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 23,
+    "class_name": 3,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 363,
+  "fields": {
+    "teacher": 19,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 23,
+    "class_name": 11,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 364,
+  "fields": {
+    "teacher": 19,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 23,
+    "class_name": 5,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 365,
+  "fields": {
+    "teacher": 19,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 23,
+    "class_name": 4,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 366,
+  "fields": {
+    "teacher": 19,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 19,
+    "class_name": 4,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 367,
+  "fields": {
+    "teacher": 19,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 23,
+    "class_name": 11,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 368,
+  "fields": {
+    "teacher": 19,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 23,
+    "class_name": 7,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 369,
+  "fields": {
+    "teacher": 19,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 23,
+    "class_name": 10,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 370,
+  "fields": {
+    "teacher": 19,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 23,
+    "class_name": 9,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 371,
+  "fields": {
+    "teacher": 19,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 24,
+    "class_name": 12,
+    "classroom": 403,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 372,
+  "fields": {
+    "teacher": 19,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 24,
+    "class_name": 12,
+    "classroom": 403,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 373,
+  "fields": {
+    "teacher": 20,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 9,
+    "class_name": 8,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 374,
+  "fields": {
+    "teacher": 20,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 9,
+    "class_name": 5,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 375,
+  "fields": {
+    "teacher": 20,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 9,
+    "class_name": 7,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 376,
+  "fields": {
+    "teacher": 20,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 9,
+    "class_name": 3,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 377,
+  "fields": {
+    "teacher": 20,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 25,
+    "class_name": 3,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 378,
+  "fields": {
+    "teacher": 20,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 25,
+    "class_name": 4,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 379,
+  "fields": {
+    "teacher": 20,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 25,
+    "class_name": 2,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 380,
+  "fields": {
+    "teacher": 20,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 25,
+    "class_name": 1,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 381,
+  "fields": {
+    "teacher": 20,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 9,
+    "class_name": 11,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 382,
+  "fields": {
+    "teacher": 20,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 11,
+    "class_name": 11,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 383,
+  "fields": {
+    "teacher": 20,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 9,
+    "class_name": 4,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 384,
+  "fields": {
+    "teacher": 20,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 9,
+    "class_name": 3,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 385,
+  "fields": {
+    "teacher": 21,
+    "weekday": 3,
+    "lesson_number": 1,
+    "lesson": 26,
+    "class_name": 1,
+    "classroom": 1,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 386,
+  "fields": {
+    "teacher": 21,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 26,
+    "class_name": 2,
+    "classroom": 1,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 387,
+  "fields": {
+    "teacher": 20,
+    "weekday": 2,
+    "lesson_number": 6,
+    "lesson": 9,
+    "class_name": 6,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 388,
+  "fields": {
+    "teacher": 21,
+    "weekday": 3,
+    "lesson_number": 3,
+    "lesson": 26,
+    "class_name": 4,
+    "classroom": 1,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 389,
+  "fields": {
+    "teacher": 21,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 26,
+    "class_name": 3,
+    "classroom": 1,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 390,
+  "fields": {
+    "teacher": 20,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 9,
+    "class_name": 4,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 391,
+  "fields": {
+    "teacher": 21,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 26,
+    "class_name": 6,
+    "classroom": 1,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 392,
+  "fields": {
+    "teacher": 21,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 26,
+    "class_name": 5,
+    "classroom": 1,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 393,
+  "fields": {
+    "teacher": 20,
+    "weekday": 3,
+    "lesson_number": 5,
+    "lesson": 9,
+    "class_name": 2,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 394,
+  "fields": {
+    "teacher": 20,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 11,
+    "class_name": 8,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 395,
+  "fields": {
+    "teacher": 20,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 9,
+    "class_name": 8,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 396,
+  "fields": {
+    "teacher": 20,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 9,
+    "class_name": 1,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 397,
+  "fields": {
+    "teacher": 20,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 11,
+    "class_name": 5,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 398,
+  "fields": {
+    "teacher": 20,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 12,
+    "class_name": 11,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 399,
+  "fields": {
+    "teacher": 20,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 9,
+    "class_name": 7,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 400,
+  "fields": {
+    "teacher": 22,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 27,
+    "class_name": 7,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 401,
+  "fields": {
+    "teacher": 20,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 11,
+    "class_name": 6,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 402,
+  "fields": {
+    "teacher": 22,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 27,
+    "class_name": 8,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 403,
+  "fields": {
+    "teacher": 22,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 27,
+    "class_name": 4,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 404,
+  "fields": {
+    "teacher": 22,
+    "weekday": 0,
+    "lesson_number": 4,
+    "lesson": 27,
+    "class_name": 10,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 405,
+  "fields": {
+    "teacher": 22,
+    "weekday": 0,
+    "lesson_number": 5,
+    "lesson": 27,
+    "class_name": 9,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 406,
+  "fields": {
+    "teacher": 22,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 27,
+    "class_name": 6,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 407,
+  "fields": {
+    "teacher": 22,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 27,
+    "class_name": 5,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 408,
+  "fields": {
+    "teacher": 22,
+    "weekday": 1,
+    "lesson_number": 1,
+    "lesson": 27,
+    "class_name": 4,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 409,
+  "fields": {
+    "teacher": 22,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 27,
+    "class_name": 11,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 410,
+  "fields": {
+    "teacher": 22,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 27,
+    "class_name": 8,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 411,
+  "fields": {
+    "teacher": 22,
+    "weekday": 1,
+    "lesson_number": 5,
+    "lesson": 27,
+    "class_name": 7,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 412,
+  "fields": {
+    "teacher": 22,
+    "weekday": 1,
+    "lesson_number": 6,
+    "lesson": 27,
+    "class_name": 12,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 413,
+  "fields": {
+    "teacher": 22,
+    "weekday": 1,
+    "lesson_number": 7,
+    "lesson": 27,
+    "class_name": 9,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 414,
+  "fields": {
+    "teacher": 22,
+    "weekday": 1,
+    "lesson_number": 8,
+    "lesson": 27,
+    "class_name": 10,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 415,
+  "fields": {
+    "teacher": 22,
+    "weekday": 2,
+    "lesson_number": 3,
+    "lesson": 27,
+    "class_name": 4,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 416,
+  "fields": {
+    "teacher": 22,
+    "weekday": 2,
+    "lesson_number": 4,
+    "lesson": 27,
+    "class_name": 3,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 417,
+  "fields": {
+    "teacher": 22,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 27,
+    "class_name": 5,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 418,
+  "fields": {
+    "teacher": 22,
+    "weekday": 2,
+    "lesson_number": 8,
+    "lesson": 27,
+    "class_name": 9,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 419,
+  "fields": {
+    "teacher": 22,
+    "weekday": 3,
+    "lesson_number": 4,
+    "lesson": 27,
+    "class_name": 7,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 420,
+  "fields": {
+    "teacher": 22,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 27,
+    "class_name": 3,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 421,
+  "fields": {
+    "teacher": 22,
+    "weekday": 3,
+    "lesson_number": 7,
+    "lesson": 27,
+    "class_name": 6,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 422,
+  "fields": {
+    "teacher": 22,
+    "weekday": 4,
+    "lesson_number": 1,
+    "lesson": 27,
+    "class_name": 10,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 423,
+  "fields": {
+    "teacher": 22,
+    "weekday": 4,
+    "lesson_number": 2,
+    "lesson": 27,
+    "class_name": 8,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 424,
+  "fields": {
+    "teacher": 22,
+    "weekday": 4,
+    "lesson_number": 3,
+    "lesson": 27,
+    "class_name": 12,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 425,
+  "fields": {
+    "teacher": 22,
+    "weekday": 4,
+    "lesson_number": 4,
+    "lesson": 27,
+    "class_name": 3,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 426,
+  "fields": {
+    "teacher": 22,
+    "weekday": 4,
+    "lesson_number": 5,
+    "lesson": 27,
+    "class_name": 6,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 427,
+  "fields": {
+    "teacher": 22,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 27,
+    "class_name": 5,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 428,
+  "fields": {
+    "teacher": 22,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 27,
+    "class_name": 11,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 429,
+  "fields": {
+    "teacher": 23,
+    "weekday": 0,
+    "lesson_number": 2,
+    "lesson": 27,
+    "class_name": 1,
+    "classroom": 102,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 430,
+  "fields": {
+    "teacher": 23,
+    "weekday": 1,
+    "lesson_number": 2,
+    "lesson": 27,
+    "class_name": 1,
+    "classroom": 102,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 431,
+  "fields": {
+    "teacher": 23,
+    "weekday": 1,
+    "lesson_number": 3,
+    "lesson": 27,
+    "class_name": 2,
+    "classroom": 102,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 432,
+  "fields": {
+    "teacher": 23,
+    "weekday": 2,
+    "lesson_number": 1,
+    "lesson": 27,
+    "class_name": 2,
+    "classroom": 101,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 433,
+  "fields": {
+    "teacher": 23,
+    "weekday": 2,
+    "lesson_number": 5,
+    "lesson": 27,
+    "class_name": 1,
+    "classroom": 102,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 434,
+  "fields": {
+    "teacher": 23,
+    "weekday": 3,
+    "lesson_number": 6,
+    "lesson": 27,
+    "class_name": 2,
+    "classroom": 102,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 435,
+  "fields": {
+    "teacher": 24,
+    "weekday": 0,
+    "lesson_number": 1,
+    "lesson": 15,
+    "class_name": 2,
+    "classroom": 401,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 436,
+  "fields": {
+    "teacher": 25,
+    "weekday": 0,
+    "lesson_number": 6,
+    "lesson": 24,
+    "class_name": 11,
+    "classroom": 407,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 437,
+  "fields": {
+    "teacher": 25,
+    "weekday": 0,
+    "lesson_number": 7,
+    "lesson": 24,
+    "class_name": 11,
+    "classroom": 407,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 438,
+  "fields": {
+    "teacher": 25,
+    "weekday": 4,
+    "lesson_number": 6,
+    "lesson": 24,
+    "class_name": 12,
+    "classroom": 407,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 439,
+  "fields": {
+    "teacher": 25,
+    "weekday": 4,
+    "lesson_number": 7,
+    "lesson": 24,
+    "class_name": 12,
+    "classroom": 407,
+    "by_groups": true
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 440,
+  "fields": {
+    "teacher": 10,
+    "weekday": 0,
+    "lesson_number": 3,
+    "lesson": 16,
+    "class_name": 8,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 441,
+  "fields": {
+    "teacher": 13,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 18,
+    "class_name": 8,
+    "classroom": 406,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 442,
+  "fields": {
+    "teacher": 18,
+    "weekday": 3,
+    "lesson_number": 2,
+    "lesson": 22,
+    "class_name": 8,
+    "classroom": 308,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 443,
+  "fields": {
+    "teacher": 19,
+    "weekday": 2,
+    "lesson_number": 2,
+    "lesson": 23,
+    "class_name": 6,
+    "classroom": 403,
+    "by_groups": false
+  }
+},
+{
+  "model": "tables.timetable",
+  "pk": 444,
+  "fields": {
+    "teacher": 20,
+    "weekday": 2,
+    "lesson_number": 7,
+    "lesson": 9,
+    "class_name": 7,
+    "classroom": 306,
+    "by_groups": false
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 1,
+  "fields": {
+    "first_name": "Serghii",
+    "first_name_en_us": "Serghii",
+    "first_name_uk": "\u0421\u0435\u0440\u0433\u0456\u0439",
+    "second_name": "Smertelny",
+    "second_name_en_us": "Smertelny",
+    "second_name_uk": "\u0421\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u0438\u0439",
+    "is_class_teacher": false,
+    "default_classroom": 303
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 2,
+  "fields": {
+    "first_name": "Dmitrii",
+    "first_name_en_us": "Dmitrii",
+    "first_name_uk": "\u0414\u043c\u0438\u0442\u0440\u043e",
+    "second_name": "Oleksievets",
+    "second_name_en_us": "Oleksievets",
+    "second_name_uk": "\u041e\u043b\u0435\u043a\u0441\u0456\u0454\u0432\u0435\u0446\u044c",
+    "is_class_teacher": false,
+    "default_classroom": 307
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 3,
+  "fields": {
+    "first_name": "Tetiana",
+    "first_name_en_us": "Tetiana",
+    "first_name_uk": "\u0422\u0435\u0442\u044f\u043d\u0430",
+    "second_name": "Smertelna",
+    "second_name_en_us": "Smertelna",
+    "second_name_uk": "\u0421\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u0430",
+    "is_class_teacher": true,
+    "default_classroom": 404
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 4,
+  "fields": {
+    "first_name": "Iryna",
+    "first_name_en_us": "Iryna",
+    "first_name_uk": "\u0406\u0440\u0438\u043d\u0430",
+    "second_name": "Mazorchuk",
+    "second_name_en_us": "Mazorchuk",
+    "second_name_uk": "\u041c\u0430\u0437\u043e\u0440\u0447\u0443\u043a",
+    "is_class_teacher": false,
+    "default_classroom": 309
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 5,
+  "fields": {
+    "first_name": "Tamara",
+    "first_name_en_us": "Tamara",
+    "first_name_uk": "\u0422\u0430\u043c\u0430\u0440\u0430",
+    "second_name": "Krik",
+    "second_name_en_us": "Krik",
+    "second_name_uk": "\u041a\u0440\u0438\u043a",
+    "is_class_teacher": false,
+    "default_classroom": 101
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 6,
+  "fields": {
+    "first_name": "Irina",
+    "first_name_en_us": "Irina",
+    "first_name_uk": "\u0406\u0440\u0438\u043d\u0430",
+    "second_name": "Motishina",
+    "second_name_en_us": "Motishina",
+    "second_name_uk": "\u041c\u043e\u0442\u0438\u0448\u0438\u043d\u0430",
+    "is_class_teacher": false,
+    "default_classroom": 302
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 7,
+  "fields": {
+    "first_name": "Alina",
+    "first_name_en_us": "Alina",
+    "first_name_uk": "\u0410\u043b\u0456\u043d\u0430",
+    "second_name": "Gorlovska",
+    "second_name_en_us": "Gorlovska",
+    "second_name_uk": "\u0413\u043e\u0440\u043b\u043e\u0432\u0441\u044c\u043a\u0430",
+    "is_class_teacher": true,
+    "default_classroom": 309
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 8,
+  "fields": {
+    "first_name": "Viktoriya",
+    "first_name_en_us": "Viktoriya",
+    "first_name_uk": "\u0412\u0456\u043a\u0442\u043e\u0440\u0456\u044f",
+    "second_name": "Shemetillo",
+    "second_name_en_us": "Shemetillo",
+    "second_name_uk": "\u0428\u0435\u043c\u0435\u0442\u0438\u043b\u043b\u043e",
+    "is_class_teacher": false,
+    "default_classroom": 401
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 9,
+  "fields": {
+    "first_name": "Ludmila",
+    "first_name_en_us": "Ludmila",
+    "first_name_uk": "\u041b\u044e\u0434\u043c\u0438\u043b\u0430",
+    "second_name": "Shinkarenko",
+    "second_name_en_us": "Shinkarenko",
+    "second_name_uk": "\u0428\u0438\u043d\u043a\u0430\u0440\u0435\u043d\u043a\u043e",
+    "is_class_teacher": true,
+    "default_classroom": 305
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 10,
+  "fields": {
+    "first_name": "Nataliya",
+    "first_name_en_us": "Nataliya",
+    "first_name_uk": "\u041d\u0430\u0442\u0430\u043b\u0456\u044f",
+    "second_name": "Kryvko",
+    "second_name_en_us": "Kryvko",
+    "second_name_uk": "\u041a\u0440\u0438\u0432\u043a\u043e",
+    "is_class_teacher": true,
+    "default_classroom": 408
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 11,
+  "fields": {
+    "first_name": "Yana",
+    "first_name_en_us": "Yana",
+    "first_name_uk": "\u042f\u043d\u0430",
+    "second_name": "Pazynich",
+    "second_name_en_us": "Pazynich",
+    "second_name_uk": "\u041f\u0430\u0437\u0438\u043d\u0456\u0447",
+    "is_class_teacher": false,
+    "default_classroom": 408
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 12,
+  "fields": {
+    "first_name": "Liza",
+    "first_name_en_us": "Liza",
+    "first_name_uk": "\u041b\u0456\u0437\u0430",
+    "second_name": "Rybak",
+    "second_name_en_us": "Rybak",
+    "second_name_uk": "\u0420\u0438\u0431\u0430\u043a",
+    "is_class_teacher": true,
+    "default_classroom": 401
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 13,
+  "fields": {
+    "first_name": "Irina",
+    "first_name_en_us": "Irina",
+    "first_name_uk": "\u0406\u0440\u0438\u043d\u0430",
+    "second_name": "Atayeva",
+    "second_name_en_us": "Atayeva",
+    "second_name_uk": "\u0410\u0442\u0430\u0454\u0432\u0430",
+    "is_class_teacher": true,
+    "default_classroom": 406
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 14,
+  "fields": {
+    "first_name": "Katerina",
+    "first_name_en_us": "Katerina",
+    "first_name_uk": "\u041a\u0430\u0442\u0435\u0440\u0438\u043d\u0430",
+    "second_name": "Aleksievets",
+    "second_name_en_us": "Aleksievets",
+    "second_name_uk": "\u0410\u043b\u0435\u043a\u0441\u0435\u0454\u0432\u0435\u0446\u044c",
+    "is_class_teacher": true,
+    "default_classroom": 405
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 15,
+  "fields": {
+    "first_name": "Dmitro",
+    "first_name_en_us": "Dmitro",
+    "first_name_uk": "\u0414\u043c\u0438\u0442\u0440\u043e",
+    "second_name": "Zimovskiy",
+    "second_name_en_us": "Zimovskiy",
+    "second_name_uk": "\u0417\u0438\u043c\u043e\u0432\u0441\u044c\u043a\u0438\u0439",
+    "is_class_teacher": true,
+    "default_classroom": 407
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 16,
+  "fields": {
+    "first_name": "Tetyana",
+    "first_name_en_us": "Tetyana",
+    "first_name_uk": "\u0422\u0435\u0442\u044f\u043d\u0430",
+    "second_name": "Korchak",
+    "second_name_en_us": "Korchak",
+    "second_name_uk": "\u041a\u043e\u0440\u0447\u0430\u043a",
+    "is_class_teacher": true,
+    "default_classroom": 301
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 17,
+  "fields": {
+    "first_name": "Tamara",
+    "first_name_en_us": "Tamara",
+    "first_name_uk": "\u0422\u0430\u043c\u0430\u0440\u0430",
+    "second_name": "Bogdanova",
+    "second_name_en_us": "Bogdanova",
+    "second_name_uk": "\u0411\u043e\u0433\u0434\u0430\u043d\u043e\u0432\u0430",
+    "is_class_teacher": false,
+    "default_classroom": 408
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 18,
+  "fields": {
+    "first_name": "Iryna",
+    "first_name_en_us": "Iryna",
+    "first_name_uk": "\u0406\u0440\u0438\u043d\u0430",
+    "second_name": "Levytska",
+    "second_name_en_us": "Levytska",
+    "second_name_uk": "\u041b\u0435\u0432\u0438\u0446\u044c\u043a\u0430",
+    "is_class_teacher": true,
+    "default_classroom": 308
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 19,
+  "fields": {
+    "first_name": "Svitlana",
+    "first_name_en_us": "Svitlana",
+    "first_name_uk": "\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430",
+    "second_name": "Shevchenko",
+    "second_name_en_us": "Shevchenko",
+    "second_name_uk": "\u0428\u0435\u0432\u0447\u0435\u043d\u043a\u043e",
+    "is_class_teacher": true,
+    "default_classroom": 403
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 20,
+  "fields": {
+    "first_name": "Ganna",
+    "first_name_en_us": "Ganna",
+    "first_name_uk": "\u0413\u0430\u043d\u043d\u0430",
+    "second_name": "Pertyk",
+    "second_name_en_us": "Pertyk",
+    "second_name_uk": "\u041f\u0435\u0442\u0440\u0438\u043a",
+    "is_class_teacher": true,
+    "default_classroom": 306
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 21,
+  "fields": {
+    "first_name": "Nadiya",
+    "first_name_en_us": "Nadiya",
+    "first_name_uk": "\u041d\u0430\u0434\u0456\u044f",
+    "second_name": "Filipchenko",
+    "second_name_en_us": "Filipchenko",
+    "second_name_uk": "\u0424\u0456\u043b\u0456\u043f\u0447\u0435\u043d\u043a\u043e",
+    "is_class_teacher": false,
+    "default_classroom": 401
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 22,
+  "fields": {
+    "first_name": "Nataliya",
+    "first_name_en_us": "Nataliya",
+    "first_name_uk": "\u041d\u0430\u0442\u0430\u043b\u0456\u044f",
+    "second_name": "Bordugova",
+    "second_name_en_us": "Bordugova",
+    "second_name_uk": "\u0411\u043e\u0440\u0434\u044e\u0433\u043e\u0432\u0430",
+    "is_class_teacher": false,
+    "default_classroom": 101
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 23,
+  "fields": {
+    "first_name": "Nataliya",
+    "first_name_en_us": "Nataliya",
+    "first_name_uk": "\u041d\u0430\u0442\u0430\u043b\u0456\u044f",
+    "second_name": "Lobas",
+    "second_name_en_us": "Lobas",
+    "second_name_uk": "\u041b\u043e\u0431\u0430\u0441",
+    "is_class_teacher": false,
+    "default_classroom": 102
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 24,
+  "fields": {
+    "first_name": "Oleksandra",
+    "first_name_en_us": "Oleksandra",
+    "first_name_uk": "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430",
+    "second_name": "Ognienko",
+    "second_name_en_us": "Ognienko",
+    "second_name_uk": "\u041e\u0433\u0456\u0454\u043d\u043a\u043e",
+    "is_class_teacher": false,
+    "default_classroom": 401
+  }
+},
+{
+  "model": "teachers.teacher",
+  "pk": 25,
+  "fields": {
+    "first_name": "Serhiy",
+    "first_name_en_us": "Serhiy",
+    "first_name_uk": "\u0421\u0435\u0440\u0433\u0456\u0439",
+    "second_name": "Moiseyenko",
+    "second_name_en_us": "Moiseyenko",
+    "second_name_uk": "\u041c\u043e\u0441\u0456\u0454\u043d\u043a\u043e",
+    "is_class_teacher": false,
+    "default_classroom": 407
   }
 }
 ]
