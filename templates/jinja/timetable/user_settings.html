@@ -3,9 +3,10 @@
 {% block title %}{{ _("Settings") }}{% endblock title %}
 
 {% block content %}
+
 {% if request.user.is_teacher %}
 <h2>{{ _("Timetable") }}</h2>
-<form method="POST" action="">
+<form method="POST" action="{{ url('user:select_teacher') }}">
     {{ csrf_input }}
     <label for="teacher_id">{{ _("Teacher to follow") }}:</label>
     <select name="teacher_id" id="teacher_id">
@@ -18,6 +19,7 @@
     </select>
     <button type="submit">{{ _("Select") }}</button>
 </form>
+
 {% elif request.user.is_student %}
     <h2>{{ _("Timetable") }}</h2>
     <form method="POST" action="{{ url('user:select_class') }}">
