@@ -1,19 +1,19 @@
 import datetime
 
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, reverse, HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponseRedirect
+from django.contrib import messages
+from django.utils.translation import gettext_lazy as _
 
-from custom_user.models import CustomUser
 from teachers.models import Teacher
 from classes.models import Class
 from .models import Timetable, DAY_OF_THE_WEEK
 
 def index(request):
-    weekday = datetime.date.today().weekday()
+    # weekday = datetime.date.today().weekday()
     if getattr(request.user, "is_teacher", None):
         selected_teacher = request.user.selected_teacher
-        lessons = Timetable._get_today()\
+        lessons = Timetable.get_today()\
             .filter(teacher=selected_teacher)\
             .order_by("lesson_number")
         return render(request, 'timetable/timetable.html', {'lessons': lessons})
@@ -21,15 +21,15 @@ def index(request):
     elif getattr(request.user, "is_student", None):
         selected_class = request.user.selected_class
         if selected_class:
-            lessons = Timetable._get_today()\
+            lessons = Timetable.get_today()\
                 .filter(class_name=selected_class)\
                 .order_by("lesson_number")
         else:
-            lessons = Timetable._get_today()\
+            lessons = Timetable.get_today()\
                 .order_by("class_name", "lesson_number")
-       
+
     else:
-        lessons = Timetable._get_today()\
+        lessons = Timetable.get_today()\
             .order_by("class_name", "lesson_number")
     return render(
         request,
@@ -65,7 +65,20 @@ def test(request):
 
 
 @login_required(login_url="/")
+def today_chosen_class(request):
+    if not getattr(request.user, "selected_class"):
+        messages.add_message(request, messages.INFO, _("You need to choose class first"))
+        return HttpResponseRedirect(reverse("timetable:user_settings"))
+    data = Timetable.get_today()\
+        .filter(class_name=request.user.selected_class)\
+        .order_by("lesson_number")
+    return render(request, "timetable/timetable.html", {"lessons": data})
+
+
+@login_required(login_url="/")
 def user_settings(request):
     teachers = Teacher.objects.all()
     classes = Class.objects.all()
-    return render(request,"timetable/user_settings.html",{"teachers": teachers, "classes": classes})
+    return render(
+        request, "timetable/user_settings.html", {"teachers": teachers, "classes": classes}
+    )

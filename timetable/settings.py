@@ -23,10 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 with open(os.path.join(BASE_DIR, 'secrets.json')) as file:
-    secret_data = json.load(file)
+    SECRET_DATA = json.load(file)
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = secret_data["django_secret_key"]
+SECRET_KEY = SECRET_DATA["django_secret_key"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -140,8 +140,8 @@ USE_L10N = True
 USE_TZ = True
 
 LANGUAGES = (
-  ('en-us', _('English')),
-  ('uk', _('Ukrainian')),
+    ('en-us', _('English')),
+    ('uk', _('Ukrainian')),
 )
 
 LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
@@ -163,8 +163,8 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = secret_data['web']['client_id']
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = secret_data['web']['client_secret']
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = SECRET_DATA['web']['client_id']
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = SECRET_DATA['web']['client_secret']
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
     'https://www.googleapis.com/auth/admin.directory.user.readonly',
     'https://www.googleapis.com/auth/admin.directory.user'

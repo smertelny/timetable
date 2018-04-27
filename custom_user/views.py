@@ -5,6 +5,7 @@ from django.contrib import messages
 
 from custom_user.models import CustomUser
 from classes.models import Class
+from teachers.models import Teacher
 # Create your views here.
 
 @require_POST

@@ -7,11 +7,11 @@ ALLOWED_HOSTS = ['timetable.school91.org.ua']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': secret_data['db_name'],
-        'USER': secret_data["db_user"],
-        'PASSWORD': secret_data["db_pass"],
-        'HOST': secret_data["db_host"],
-        'PORT': secret_data["db_port"],
+        'NAME': SECRET_DATA['db_name'],
+        'USER': SECRET_DATA["db_user"],
+        'PASSWORD': SECRET_DATA["db_pass"],
+        'HOST': SECRET_DATA["db_host"],
+        'PORT': SECRET_DATA["db_port"],
     }
 }
 
@@ -28,6 +28,6 @@ HTML_MINIFY = True
 
 # Raven configuration
 RAVEN_CONFIG = {
-    'dsn': secret_data["sentry_dsn"],
+    'dsn': SECRET_DATA["sentry_dsn"],
     'release': raven.fetch_git_sha(os.path.abspath(BASE_DIR)),
 }

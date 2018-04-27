@@ -4,6 +4,16 @@
 
 {% block content %}
 
+{% with messages = messages(request) %}
+{% if messages %}
+<ul class="messages">
+    {% for msg in messages %}
+    <li style="color: red">{{ msg }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+
 {% if request.user.is_teacher %}
 <h2>{{ _("Timetable") }}</h2>
 <form method="POST" action="{{ url('user:select_teacher') }}">
@@ -19,8 +29,9 @@
     </select>
     <button type="submit">{{ _("Select") }}</button>
 </form>
-
-{% elif request.user.is_student %}
+<hr />
+{% endif %}
+{% if (request.user.is_student or request.user.is_teacher) %}
     <h2>{{ _("Timetable") }}</h2>
     <form method="POST" action="{{ url('user:select_class') }}">
         {{ csrf_input }}

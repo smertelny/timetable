@@ -1,8 +1,5 @@
 import requests
 
-from django.contrib.auth.models import User
-
-
 def user_is_teacher(backend, user, uid, social, *args, **kwargs):
     if backend.name == 'google-oauth2':
         response = requests.get(

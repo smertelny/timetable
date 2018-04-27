@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-28 16:01+0200\n"
+"POT-Creation-Date: 2018-04-27 10:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgstr "Не може бути більше 5 букв"
 msgid "short name"
 msgstr "коротка назва"
 
-#: .\lessons\models.py:13 .\tables\models.py:31
+#: .\lessons\models.py:13 .\tables\models.py:39
 msgid "lesson"
 msgstr "урок"
 
@@ -105,69 +105,73 @@ msgstr "урок"
 msgid "lessons"
 msgstr "уроки"
 
-#: .\tables\models.py:14
+#: .\tables\models.py:13
 msgid "Monday"
 msgstr "Понеділок"
 
-#: .\tables\models.py:15
+#: .\tables\models.py:14
 msgid "Tuesday"
 msgstr "Вівторок"
 
-#: .\tables\models.py:16
+#: .\tables\models.py:15
 msgid "Wednesday"
 msgstr "Середа"
 
-#: .\tables\models.py:17
+#: .\tables\models.py:16
 msgid "Thursday"
 msgstr "Четвер"
 
-#: .\tables\models.py:18
+#: .\tables\models.py:17
 msgid "Friday"
 msgstr "П'ятниця"
 
-#: .\tables\models.py:19
+#: .\tables\models.py:18
 msgid "Saturday"
 msgstr "Субота"
 
-#: .\tables\models.py:20
+#: .\tables\models.py:19
 msgid "Sunday"
 msgstr "Неділя"
 
-#: .\tables\models.py:25 .\teachers\models.py:16
+#: .\tables\models.py:28 .\teachers\models.py:16
 msgid "teacher"
 msgstr "вчитель"
 
-#: .\tables\models.py:26
+#: .\tables\models.py:30
 msgid "weekday"
 msgstr "день тиждня"
 
-#: .\tables\models.py:28
+#: .\tables\models.py:32
 msgid "There can't be more than 8 lessons"
 msgstr "Не може бути більше 8 уроків"
 
-#: .\tables\models.py:29
+#: .\tables\models.py:33
 msgid "lesson number"
 msgstr "номер уроку"
 
-#: .\tables\models.py:32
+#: .\tables\models.py:46
 msgid "class name"
 msgstr "класс"
 
-#: .\tables\models.py:33
+#: .\tables\models.py:48
 msgid "classroom"
 msgstr "кабінет"
 
-#: .\tables\models.py:34
+#: .\tables\models.py:49
 msgid "by groups"
 msgstr "по группах"
 
-#: .\tables\models.py:47
+#: .\tables\models.py:64
 msgid "timetable"
 msgstr "розклад"
 
-#: .\tables\models.py:48
+#: .\tables\models.py:65
 msgid "timetables"
 msgstr "розклади"
+
+#: .\tables\views.py:70
+msgid "You need to choose class first"
+msgstr "Спочатку оберіть клас"
 
 #: .\teachers\models.py:6
 msgid "first name"
@@ -193,43 +197,47 @@ msgstr "вчителі"
 msgid "Timetable for puppils and teachers of School #91, Ukraine, Kiev"
 msgstr "Розклад для учнів та вчителів СШ №91, Київ, Україна"
 
-#: .\templates\jinja\base.html:8
-#: .\templates\jinja\timetable\user_settings.html:7
-#: .\templates\jinja\timetable\user_settings.html:22
+#: .\templates\jinja\base.html:16
+#: .\templates\jinja\timetable\user_settings.html:18
+#: .\templates\jinja\timetable\user_settings.html:35
 msgid "Timetable"
 msgstr "Розклад"
 
-#: .\templates\jinja\base.html:14
+#: .\templates\jinja\base.html:22
 msgid "Main"
 msgstr "Головна"
 
-#: .\templates\jinja\base.html:15
+#: .\templates\jinja\base.html:24
 msgid "All lessons"
 msgstr "Уроки"
 
-#: .\templates\jinja\base.html:16
+#: .\templates\jinja\base.html:25
 msgid "Lesson by Teachers"
 msgstr "Уроки Вчителя"
 
-#: .\templates\jinja\base.html:19
+#: .\templates\jinja\base.html:28
+msgid "Chosen Class"
+msgstr "Обраний клас"
+
+#: .\templates\jinja\base.html:33
 #, python-format
 msgid "Hello, %(user)s"
 msgstr "Привіт, %(user)s"
 
-#: .\templates\jinja\base.html:20
+#: .\templates\jinja\base.html:34
 msgid "Admin panel"
 msgstr "Панель адміністратора"
 
-#: .\templates\jinja\base.html:21
+#: .\templates\jinja\base.html:35
 #: .\templates\jinja\timetable\user_settings.html:3
 msgid "Settings"
 msgstr "Налаштування"
 
-#: .\templates\jinja\base.html:22
+#: .\templates\jinja\base.html:36
 msgid "Log out"
 msgstr "Вийти"
 
-#: .\templates\jinja\base.html:31
+#: .\templates\jinja\base.html:45
 msgid "No content on this page"
 msgstr "На цій сторінці немає конетенту"
 
@@ -273,9 +281,9 @@ msgid "Select teacher"
 msgstr "Обрати Вчителя"
 
 #: .\templates\jinja\timetable\test.html:13
-#: .\templates\jinja\timetable\user_settings.html:19
-#: .\templates\jinja\timetable\user_settings.html:34
-#: .\templates\jinja\timetable\user_settings.html:51
+#: .\templates\jinja\timetable\user_settings.html:30
+#: .\templates\jinja\timetable\user_settings.html:47
+#: .\templates\jinja\timetable\user_settings.html:64
 msgid "Select"
 msgstr "Обрати"
 
@@ -290,16 +298,16 @@ msgstr "Кабінет"
 msgid "You have no lessons today, be happy =)"
 msgstr "В вас немає уроків сьогодні, радійте =)"
 
-#: .\templates\jinja\timetable\user_settings.html:10
+#: .\templates\jinja\timetable\user_settings.html:21
 msgid "Teacher to follow"
 msgstr "Слідкувати за вчителем"
 
-#: .\templates\jinja\timetable\user_settings.html:25
+#: .\templates\jinja\timetable\user_settings.html:38
 msgid "Class to follow"
 msgstr "Слідкувати за класом"
 
-#: .\templates\jinja\timetable\user_settings.html:42
-#: .\templates\jinja\timetable\user_settings.html:45
+#: .\templates\jinja\timetable\user_settings.html:55
+#: .\templates\jinja\timetable\user_settings.html:58
 msgid "Language"
 msgstr "Мова"
 
