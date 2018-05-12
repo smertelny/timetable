@@ -3,47 +3,50 @@
 {% block title %}{{ _("Student's timetable") }}|{{ super() }}{% endblock title %}
 
 {% block content %}
-
-{% for klass in lessons %}
-  {% if loop.first %}
-  <h1 style="text-align: center">{{ klass.get_weekday_display() }}</h1>
-  <table>
-  <caption>{{ klass.class_name }}</caption>
-    <tr>
-      <td>{{ _("Number") }}</td>
-      <td>{{ _("Lesson") }}</td>
-      <td>{{ _("Class") }}</td>
-    </tr>
-  {% endif %}
-  
-  {% if loop.previtem is defined and klass.class_name != loop.previtem.class_name %}
-  </table>
-  <br />
-  <table>
+{% if lessons %}
+  {% for klass in lessons %}
+    {% if loop.first %}
+    <h1 style="text-align: center">{{ klass.get_weekday_display() }}</h1>
+    <table>
     <caption>{{ klass.class_name }}</caption>
+      <tr>
+        <td>{{ _("Number") }}</td>
+        <td>{{ _("Lesson") }}</td>
+        <td>{{ _("Class") }}</td>
+      </tr>
+    {% endif %}
+    
+    {% if loop.previtem is defined and klass.class_name != loop.previtem.class_name %}
+    </table>
+    <br />
+    <table>
+      <caption>{{ klass.class_name }}</caption>
+      <tr>
+        <td>{{ _("Number") }}</td>
+        <td>{{ _("Lesson") }}</td>
+        <td>{{ _("Class") }}</td>
+      </tr>
+    {% endif %}
+
+    {% if klass.by_groups and loop.nextitem is defined and loop.nextitem.lesson_number == klass.lesson_number and loop.nextitem.by_groups %}
+    {% elif loop.previtem is defined and (klass.by_groups) and (loop.previtem.lesson_number == klass.lesson_number) and loop.previtem.by_groups %}
     <tr>
-      <td>{{ _("Number") }}</td>
-      <td>{{ _("Lesson") }}</td>
-      <td>{{ _("Class") }}</td>
+      <td>{{ klass.lesson_number }}</td>
+      <td>{{ klass.lesson }}</td>
+      <td>{{ klass.classroom }}/{{ loop.previtem.classroom }}</td>
     </tr>
-  {% endif %}
+    {% else %}
+    <tr>
+      <td>{{ klass.lesson_number }}</td>
+      <td>{{ klass.lesson }}</td>
+      <td>{{ klass.classroom }}</td>
+    </tr>
+    {% endif %}
 
-  {% if klass.by_groups and loop.nextitem is defined and loop.nextitem.lesson_number == klass.lesson_number and loop.nextitem.by_groups %}
-  {% elif loop.previtem is defined and (klass.by_groups) and (loop.previtem.lesson_number == klass.lesson_number) and loop.previtem.by_groups %}
-  <tr>
-    <td>{{ klass.lesson_number }}</td>
-    <td>{{ klass.lesson }}</td>
-    <td>{{ klass.classroom }}/{{ loop.previtem.classroom }}</td>
-  </tr>
-  {% else %}
-  <tr>
-    <td>{{ klass.lesson_number }}</td>
-    <td>{{ klass.lesson }}</td>
-    <td>{{ klass.classroom }}</td>
-  </tr>
-  {% endif %}
-
-{% endfor %}
+  {% endfor %}
 </table>
+{% else %}
+<h1>{{ _("You have no lessons today, be happy =)") }}</h1>
+{% endif %}
 {% endblock content %}
 
