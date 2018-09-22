@@ -31,3 +31,6 @@ RAVEN_CONFIG = {
     'dsn': SECRET_DATA["sentry_dsn"],
     'release': raven.fetch_git_sha(os.path.abspath(BASE_DIR)),
 }
+
+# Making static files to be generated with MD5 hash for better caching
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'

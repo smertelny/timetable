@@ -167,7 +167,7 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = SECRET_DATA['web']['client_id']
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = SECRET_DATA['web']['client_secret']
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
     'https://www.googleapis.com/auth/admin.directory.user.readonly',
-    'https://www.googleapis.com/auth/admin.directory.user'
+#     'https://www.googleapis.com/auth/admin.directory.user'
 ]
 
 SOCIAL_AUTH_PIPELINE = (
